@@ -10,7 +10,7 @@
 % an alternative to Layaureo can be ** \usepackage{fullpage} **
 \usepackage{supertabular} 				%for Grades
 \usepackage{titlesec}					%custom \section
-
+\usepackage{array}
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
@@ -79,8 +79,9 @@ ItalicFont = Fontin-Italic.otf
 \begin{tabular}{rl}
     %\textsc{Place and Date of Birth:} & Someplace, Italy  | dd Month 1912 \\
     \textsc{Address:}   & Rue Aviateur Thieffry 48, Bruxelles -- 1040 \\
-    \textsc{Phone:}     & +32 471 56 00 81\\
-    \textsc{email:}     & \href{mailto:atul.singh.arora@gmail.com}{atul.singh.arora@gmail.com}
+    \textsc{Phone:}     & +32 2 650 29 72\\ 
+    \textsc{Mobile:}      & +32 471 56 00 81\\
+    \textsc{Internet:}     & \href{mailto:atul.singh.arora@gmail.com}{atul.singh.arora@gmail.com}, \href{https://atulsingharora.github.io}{atulsingharora.github.io}
 \end{tabular}
 
 %Section: Work Experience at the top
@@ -106,6 +107,16 @@ ItalicFont = Fontin-Italic.otf
                       & \small Advisor: Prof. Otfried \textsc{Gühne}\\
                       & \footnotesize{Constructed a Bell inequality using observables bounded in phase space to probe local realism using macroscopic variables.} \\
                       & \small{A.S.A., A. Asadian. \hyperlink{http://dx.doi.org/10.1103/PhysRevA.92.062107}{Phys. Rev. A 92, 061207} }\\
+
+\multicolumn{2}{c}{} \\
+
+\textsc{2011-14}  & Intern, {\footnotesize worked on yarn defect recognition using OpenCV at} \textsc{Indian Institute of Technology, Bombay} 
+                      {\footnotesize under the supervision of} \small{Prof Anirban Guha}; 
+                      {\footnotesize worked on setting up an experiment to study the dynamics of a dipole lattice at the}
+                      \textsc{National Physical Laboratory (NPL)}, New Delhi, India
+                      {\footnotesize under the supervision of} \small{Dr Ravi Mehrotra};
+                      {\footnotesize worked on quantum simulation at} \textsc{IISER Mohali}, India 
+                      {\footnotesize under the supervision of} \small{Prof Arvind}; 
 \end{tabular}
 
 %Section: Education
@@ -116,7 +127,7 @@ ItalicFont = Fontin-Italic.otf
                     & \\
  \textsc{July} 2016 & Bachelor and Master of Science with \textsc{Physics} major,\\
  \textsc{July} 2011 & \textbf{Indian Institute of Science Education and Research (IISER), Mohali}, India.\\
-& CPI: \textbf{9.4} /10. \small Graduated with \emph{rank two.} \hyperlink{grds_cleli}{\hfill | \footnotesize Detailed List of Exams}\\&\\ 
+& CPI: \textbf{9.4} /10. \small Graduated with \emph{rank two.} \hyperlink{grades}{\hfill | \footnotesize Evaluation Details}\\&\\ 
 % & Thesis: ``Sublinear and Locally Sublinear Prices'' | \small Advisor: Prof. Erio \textsc{Castagnoli}\\
 % &\normalsize \textsc{Gpa}: 28.61/30\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\&\\
 \end{tabular}
@@ -126,14 +137,15 @@ ItalicFont = Fontin-Italic.otf
 \begin{tabular}{rp{11cm}}
  \textsc{Dec} 2016 & Two year research fellowship from the \emph{FNRS (Fonds National Recherche de Science)}, through the FRIA grant.\normalsize\\
  2016     & Top 5\% in the physics stream of the \emph{Graduate Aptitude Test in Engineering (GATE)}, India. \\
-          & Obtained a 92.3 percentile in the national garduate physics exam, \emph{Joint Entrance Screening Test (JEST)}, India. 
-\end{tabular}
+          & Obtained a 92.3 percentile in the national graduate physics exam, \emph{Joint Entrance Screening Test (JEST)}, India. \\
+% \end{tabular}
 
-\begin{tabular}{rp{11cm}}
+% \begin{tabular}{rp{11cm}}
  2015     & Awarded the \emph{Junior Research Fellowship (JRF-NET)} from the Council of Scientific and Industrial Research, India. \\
-          & Awarded the \emph{DAAD WISE} fellowship for a summer internship in Germany.\\
+          & Awarded the \emph{DAAD WISE} fellowship for a summer internship by and in Germany.\\
  2013-16  & Awarded the Certificate of Merit for the best academic performance for a given semester, twice by IISER. Was among the highest scorers four other times.\\
- 2012     & Awarded the \emph{KVPY} fellowship for my work on Stepper Motor Control, by DST, India.
+ 2012     & Awarded the \emph{KVPY} fellowship for my work on Stepper Motor Control, by DST, India.\\
+ 2010     & Granted financial support for attending the Bright Green Youth climate summit, Denmark.
 \end{tabular}
 
 %Section: Languages
@@ -158,39 +170,43 @@ Fitness; Piano, Guitar. \\
 
 \newpage
 \par{\centering\Large \hypertarget{grds}{Bachelor and Master of Science with a major in \textsc{Physics}}\par}\normalsize
+\setlength{\extrarowheight}{7pt}
+
 \begin{center}
-\begin{tabular}{lcc}
-\multicolumn{1}{c}{\textsc{Exam}}&\textsc{Grade}&\textsc{Credit Hrs}\\ \hline
-Corporate Finance (Valuation)	&25&	6\\
-Financial Statement Analysis	&28&	6\\
-Statistics	&27&	6\\
-Theory of Finance	&26&	6\\
-Quantitative Methods for Finance	&30&	6\\
-Econometrics	&24	&6\\
-Derivatives	&31&	6\\
-Management of Financial and Insurance Companies	&30&	6\\
-Business Law	&31&	6\\
-Investment Banking	&28&	6\\ \\
-		
-Behavioral Models for Economics and Finance	&29&	6\\
-Numerical Methods for Finance	&29&	6\\
-Advanced Derivatives	&30&	6\\
-Fixed Income (Advanced Methods)	&30&	6\\ \\
-		
-English Language	&30&	4\\
-French Language	&31&	4\\
-		
-Internship	&	&8\\
-		
-Final Thesis	&	&20\\
-		
-		& Total&120\\\cline{2-3}
-&\textsc{Gpa}&\textbf{28.61}
+\label{grades}
+\begin{tabular}{cp{9cm}c}
+  \textsc{Semester$^*$} & \multicolumn{1}{c}{\textsc{Subjects}} & \textsc{Score} \\
+  \hline
+  1 & Mechanics, Chemistry of elements and chemical transformations, 
+  Cellular basis of life, Symmetry, Language skills B (English), 
+  Introduction to computers, Physics lab I, Chem lab I, Bio lab I &8.5/10 \\
+  2 & Electromagnetism, Atoms molecules and symmetry, Gene expression and development, Analysis in one variable,
+  Hands-on electronics, History of science, Physics lab II, Chemistry lab II, Biology lab II &8.6/10 \\
+  3 & Waves and optics, Spectroscopic and other physical methods, Genetics and evolution, Curves and surfaces, 
+  Introduction to astrophysics, Workshop training, Physics lab III, Chemistry lab III, Biology lab III &8.8/10\\
+  4 & Thermodynamics and statistical physics, Energetics and dynamics of chemical reactions, Behaviour and ecology,
+  Probability and statistics, Introduction to quantum physics, Philosophy of science, Physics lab IV, Chemistry lab IV,
+  Biology lab IV& 9.7/10 \\
+  5$^\dagger$ & Classical mechanics, Quantum mechanics, Electrodynamics, Advanced optics lab, Reason and rationality & 10/10\\
+  6 & Statistical mechanics, Atomic and molecular physics, Quantum computation, Advanced electronics and instrumentation
+  lab, Quantum field theory & 9.6/10 \\
+  7 & Solid state physics, Nuclear and particle physics, Nuclear physics lab, Physics of fluids, Quantum principles 
+  and quantum optics, Radiative effects and renormalisation group in relativistic quantum field theory & 9.4/10\\
+  8 & Nonlinear dynamics, Chaos and complex systems, Condensed matter physics lab, computational methods in physics,
+  Standard model and beyond, Selected topics in classical and quantum mechanics& 9.5/10\\
+  9 & Ethics, MS Thesis---Research project I & 10/10 \\
+  10 & Cosmology and galaxy formation, MS Thesis---Research project II & 10/10\\
+  & \cline{2-2}
+  &Cumulative Performance Index (CPI)& \textbf{9.4} /10\\
+  & \\
+  \hline
 \end{tabular}
 \end{center}
-\bigskip
+\vspace*{\fill}
 \hrule
-\bigskip
+\footnotesize{$*$ Note that the credits associated with each semester are not exactly the same.}
+
+\footnotesize{$\dagger$ Physics major henceforth.}
 
 %\newpage
 %\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
