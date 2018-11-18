@@ -1,9 +1,9 @@
 # Fête d'anniversaire
 ### After-dinner, beer and cheese party
 
-Based on the poll, I have decided to host the party on Tuesday, the 20th (which is also my date of birth, so that makes sense).
+My days of enjoying being 26 years old are nearing their end. Based on the poll, I have decided to host the party on Tuesday, the 20th (which is also my date of birth, so that makes sense).
 
-I have purchased (with some expert guidance) an assortment of cheese(s?) and beers.  There should be at least three beers per person. There will also be some soft drinks but not quite as many. There'd be some snacks but it won't replace a proper meal. Feel free to bring anything else that you might want, to enjoy the evening. 
+I have purchased (with some expert guidance) an assortment of cheese(s?) and beers.  There should be at least three beers per person. There will also be some soft drinks but not quite as many. There'd be some snacks but it won't replace a proper meal so please do eat before coming. Feel free to bring anything else that you might want, to enjoy the evening. 
 
 We have a couple of musicians in the guest list so it should be all the more fun. I look forward to seeing you all on Tuesday, night.
 
