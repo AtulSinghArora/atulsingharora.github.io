@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745) (preloaded format=xelatex 2018.11.9)  25 NOV 2018 12:46
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745) (preloaded format=xelatex 2018.11.9)  25 NOV 2018 12:47
 entering extended mode
 **c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex
 (c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex
@@ -796,22 +796,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--186
 
  []
 
-c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex:188: Undefined c
-ontrol sequence
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex:191: Undefined c
-ontrol sequence
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 188--192
 
@@ -852,10 +836,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 24203 strings out of 427792
- 431127 string characters out of 3147755
+ 24202 strings out of 427792
+ 431119 string characters out of 3147755
  525264 words of memory out of 3000000
- 28065 multiletter control sequences out of 15000+200000
+ 28064 multiletter control sequences out of 15000+200000
  534721 words of font info for 56 fonts, out of 3000000 for 9000
  1329 hyphenation exceptions out of 8191
  39i,9n,67p,1247b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
