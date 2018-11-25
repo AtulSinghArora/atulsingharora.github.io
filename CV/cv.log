@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745) (preloaded format=xelatex 2018.11.9)  25 NOV 2018 12:36
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745) (preloaded format=xelatex 2018.11.9)  25 NOV 2018 12:38
 entering extended mode
 **c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex
 (c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex
@@ -815,8 +815,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
  (cv.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 232.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: AFE95F0946F7040A1BB1DD0847EDA250.
+
+
+Package rerunfilecheck Warning: File `cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv.out':
+(rerunfilecheck)             Before: AFE95F0946F7040A1BB1DD0847EDA250
+(rerunfilecheck)             After:  0C4CEBB4BF64923AB35C60B375EE2F12.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  24209 strings out of 427792
