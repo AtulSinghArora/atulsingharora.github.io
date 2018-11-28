@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745) (preloaded format=xelatex 2018.11.9)  25 NOV 2018 12:48
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745) (preloaded format=xelatex 2018.11.9)  25 NOV 2018 19:31
 entering extended mode
 **c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex
 (c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex
@@ -790,11 +790,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 188--192
 
  []
@@ -820,23 +815,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (cv.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 238.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
-
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: CDC9F74A06B1033C229C7CD6E0560083
-(rerunfilecheck)             After:  0C4CEBB4BF64923AB35C60B375EE2F12.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: 0C4CEBB4BF64923AB35C60B375EE2F12.
  ) 
 Here is how much of TeX's memory you used:
  24209 strings out of 427792
  431157 string characters out of 3147755
- 525421 words of memory out of 3000000
+ 525433 words of memory out of 3000000
  28065 multiletter control sequences out of 15000+200000
  534721 words of font info for 56 fonts, out of 3000000 for 9000
  1329 hyphenation exceptions out of 8191
