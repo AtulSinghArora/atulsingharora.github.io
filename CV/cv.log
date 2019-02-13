@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745) (preloaded format=xelatex 2018.11.9)  13 FEB 2019 16:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745) (preloaded format=xelatex 2018.11.9)  13 FEB 2019 16:25
 entering extended mode
 **c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex
 (c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex
@@ -805,18 +805,6 @@ Try to go on, since this might almost work.
 [1
 
 ]
-c:/Users/toatu/SparkleShare/atulsingharora.github.io/CV/cv.tex:172: Extra align
-ment tab has been changed to \cr
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Overfull \hbox (426.61705pt too wide) in paragraph at lines 170--176
-[][] 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 189--193
 
  []
