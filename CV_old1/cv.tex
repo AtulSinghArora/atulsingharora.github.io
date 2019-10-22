@@ -1,11 +1,6 @@
 \documentclass[a4paper,10pt]{article}
 
 %A Few Useful Packages
-\usepackage{graphicx}
-\usepackage[absolute,overlay]{textpos}
-  \setlength{\TPHorizModule}{1cm}
-  \setlength{\TPVertModule}{1cm}
-
 \usepackage{marvosym}
 \usepackage{fontspec} 					%for loading fonts
 \usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
@@ -73,18 +68,9 @@ ItalicFont = Fontin-Italic.otf
 \font\fb=''[cmr10]'' %for use with \LaTeX command
 
 %--------------------TITLE-------------
-%\flushright
-%\centering
-\par{  
+\par{\centering
 		{\Huge Atul Singh \textsc{Arora}
-	}  \bigskip\par}
-\bigskip\bigskip\bigskip
-%\begin{textblock}{10}(4.7,-5.9) %right aligned
-\begin{textblock}{10}(4.6,-5.6) %right aligned
-%\begin{textblock}{10}(1.1,-5.9) %left aligned
-%\begin{textblock}{10}(3,-5.9) %middle
-     \includegraphics[width=2.2cm]{atul.jpg}
-    \end{textblock}
+	}\bigskip\par}
 
 %--------------------SECTIONS-----------------------------------
 %Section: Personal Data
@@ -104,13 +90,10 @@ ItalicFont = Fontin-Italic.otf
  \emph{Current}     & PhD Thesis, \textsc{Université libre de Bruxelles (ULB)}, Belgium \\
                     &\emph{Quantum Cryptography and Communication} \\
                     &\small Advisor: Prof. Jérémie \textsc{Roland}\\
-                    &\footnotesize{Primarily working on quantum weak coin flipping, a cryptographic primitive. Its figure of merit is called the bias, $\epsilon$. The best known were $\epsilon \to 1/6$ by C. Mochon in 2005.} \\
-                    &\footnotesize{~~End of 2017: Found protocols with $\epsilon \to 1/10$.}\\
-                    &\footnotesize{~~End of 2018: Found an algorithm to numerically find protocols with $\epsilon\to 0$.}\\
-                    &\footnotesize{~~End of 2019: Working on finding an analytic solution to the problem.}\\
-                    &\footnotesize{Reading about quantum communication complexity.}\\
-                    &\footnotesize{On the side, have been investigating foundational aspects of quantum mechanics.}\\
-                    &\small{A.S.A., S. Weis, J. Roland. \href{https://arxiv.org/abs/1811.02984}{arXiv:1811.02984} (\href{https://www.youtube.com/watch?v=eNK6X7BlG5U&list=PLGdMsPGuoD25wLgnY7RBoTAxsnQEMsNA0&index=12}{QIP '19}; \href{http://dx.doi.org/10.1145/3313276.3316306}{STOC '19}; \href{https://atulsingharora.github.io/WCF}{web}) }\\
+ &\footnotesize{  Recently solved an interesting problem about quantum weak coin flipping, a cryptographic primitive.
+                  Started studying for the next project, quantum communication complexity.
+                  On the side, have been investigating foundational aspects of quantum mechanics.}\\
+                    &\small{A.S.A., S. Weis, J. Roland. \href{https://arxiv.org/abs/1811.02984}{arXiv:1811.02984} (Accepted. \href{http://jila.colorado.edu/qip2019/program.html#accepted}{QIP '19}; Accepted. \href{http://acm-stoc.org/stoc2019/STOC%202019%20accepted%20papers.html}{STOC '19}) }\\
                     &\small{K. Bharti, A.S.A, L. C. Kwek, J. Roland. \href{https://arxiv.org/abs/1811.05294}{arXiv:1811.05294} (Submitted to PRL) }\\
  \multicolumn{2}{c}{} \\
 
@@ -118,24 +101,24 @@ ItalicFont = Fontin-Italic.otf
                   &\emph{Contextuality in a Deterministic Quantum Theory}\\
                   &\small Advisor: Prof. Arvind\\ 
                   &\footnotesize{Concluded that contextuality is not a necessary feature of quantum mechanics and proposed an alternative, non functional-conistency, bolstered by an explicit construction. }\\
-                  &\small{A.S.A., K. Bharti, Arvind. \href{https://arxiv.org/abs/1607.03498}{arXiv:1607.03498}; \href{https://doi.org/10.1016/j.physleta.2018.11.049}{Physics Letters A. (Nov 2018)} }\\            
+                  &\small{A.S.A., K. Bharti, Arvind. \href{https://arxiv.org/abs/1607.03498}{arXiv:1607.03498}; \href{https://doi.org/10.1016/j.physleta.2018.11.049}{Physics Letters A. (Nov 2018)}\\            
 \multicolumn{2}{c}{} \\
 
-\textsc{Summer}   & Internship \textsc{University of Siegen}, Germany\\
+\textsc{Summer}   & Intern, \textsc{University of Siegen}, Germany\\
 2015                  & \emph{Towards a macroscopic test of local realism}\\
-                      & \small{Advisor: Prof. Otfried \textsc{Gühne}}\\
+                      & \small Advisor: Prof. Otfried \textsc{Gühne}\\
                       & \footnotesize{Constructed a Bell inequality using observables bounded in phase space to probe local realism using macroscopic variables.} \\
-                      & \small{A.S.A., A. Asadian. \href{https://arxiv.org/abs/1508.04588}{arXiv:1508.04588}; \href{http://dx.doi.org/10.1103/PhysRevA.92.062107}{Phys. Rev. A 92, 061207} }\\
-                      
+                      & \small{A.S.A., A. Asadian. \href{https://arxiv.org/abs/1508.04588}{arXiv:1508.04588}; \href{http://dx.doi.org/10.1103/PhysRevA.92.062107}{Phys. Rev. A 92, 061207}\\
+
 \multicolumn{2}{c}{} \\
 
-\textsc{2011-14}  & Internships \\
-                      &\textsc{IISER Mohali}, India. {\footnotesize Quantum simulation (theory).} 
-                      {\footnotesize Advisor:} \small{Prof Arvind}.\\
-                      &\textsc{National Physical Laboratory (NPL)}, New Delhi, India. {\footnotesize Set up an experiment to study the dynamics of a dipole lattice.}                    
-                      {\footnotesize Advisor:} \small{Dr Ravi \textsc{Mehrotra}}.\\
-                      &\textsc{Indian Institute of Technology (IIT), Bombay, India.} {\footnotesize Yarn defect recognition using OpenCV.}  
-                      {\footnotesize Advisor:} \small{Prof Anirban \textsc{Guha}}.
+\textsc{2011-14}  & Intern, {\footnotesize worked on yarn defect recognition using OpenCV at the} \textsc{Indian Institute of Technology (IIT), Bombay} 
+                      {\footnotesize under the supervision of} \small{Prof Anirban Guha}; 
+                      {\footnotesize worked on setting up an experiment to study the dynamics of a dipole lattice at the}
+                      \textsc{National Physical Laboratory (NPL)}, New Delhi, India
+                      {\footnotesize under the supervision of} \small{Dr Ravi Mehrotra};
+                      {\footnotesize worked on quantum simulation at} \textsc{IISER Mohali}, India  
+                      {\footnotesize under the supervision of} \small{Prof Arvind}; 
 \end{tabular}
 
 %Section: Education
@@ -151,60 +134,45 @@ ItalicFont = Fontin-Italic.otf
 % &\normalsize \textsc{Gpa}: 28.61/30\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\&\\
 \end{tabular}
 
-\section{Conferences}
-\begin{tabular}{rrp{11cm}}
-  & ~~2019  &\textbf{Participant}. \\
-  & ~~~~~~ &\textsc{QuantAlgo} Workshop. CWI, Amsterdam, Netherlands.\\
-  & ~~2019 &\textbf{Participant}. \\
-  & ~~~~~~ &(Physics) Lindau Nobel Laureate Meeting (\textsc{LiNo}). Lindau, Germany. \\
-  & ~~2019 &\textbf{Talk}. \emph{Quantum Weak Coin Flipping}. \\
-  & ~~~~~~ &Symposium on Theory of Computing (\textsc{STOC}). Phoenix, Arizona, USA. \\
-  & ~~2019 &\textbf{Talk}. \emph{Quantum Weak Coin Flipping}. \\
-  & ~~~~~~ &Quantum Information Processing (\textsc{QIP}). University of Colorado, USA. \\
-  & ~~2018 &\textbf{Talk}. \emph{Quantum Weak Coin Flipping beyond bias 1/6}. \\  
-  & ~~~~~~ &\textsc{QuantAlgo} Workshop. Université Paris-Diderot, Paris, France. \\
-  & ~~2018 &\textbf{Poster}. \emph{Quantum Weak Coin Flipping with bias 1/10}. \\
-  & ~~~~~~ &Quantum Information Processing (\textsc{QIP}). TU Delft, Netherlands. \\
-  & ~~2017 &\textbf{Participant}. \\
-  & ~~~~~~ &Theory of Quantum Computation, Communication and Cryptography (\textsc{TQC}). Paris, France.
-  \end{tabular}
-
 %Section: Scholarships and additional info
 \section{Recognition }
-\begin{tabular}{rrp{11cm}}
-  & ~~2019 & Granted financial support for attending the \emph{(Physics) Lindau Nobel Laureate Meeting, 2019}. \\
-  & ~~2018 & Renewed. Two year research fellowship from the Belgian \emph{Fonds National Recherche de Science (FNRS)}, through the FRIA grant.\normalsize\\
-  & ~~2016 & Awarded. Two year research fellowship from the Belgian \emph{Fonds National Recherche de Science (FNRS)}, through the FRIA grant.\normalsize\\
- & ~~2016     & Top 5\% in the physics stream of the \emph{Graduate Aptitude Test in Engineering (GATE)}, India. \\
- & ~~~~~~     & Obtained a 92.3 percentile in the national graduate physics exam, \emph{Joint Entrance Screening Test (JEST)}, India. \\
+\begin{tabular}{rp{11cm}}
+ \textsc{Dec} 2016 & Two year research fellowship from the Belgian \emph{FNRS (Fonds National Recherche de Science)}, through the FRIA grant.\normalsize\\
+ 2016     & Top 5\% in the physics stream of the \emph{Graduate Aptitude Test in Engineering (GATE)}, India. \\
+          & Obtained a 92.3 percentile in the national graduate physics exam, \emph{Joint Entrance Screening Test (JEST)}, India. \\
 % \end{tabular}
 
 % \begin{tabular}{rp{11cm}}
- & ~~2015     & Awarded the \emph{Junior Research Fellowship (JRF-NET)} from the Council of Scientific and Industrial Research, India. \\
- & ~~~~~~     & Awarded the \emph{DAAD WISE} fellowship for a summer internship by and in Germany.\\
- & 2013-16  & Awarded the Certificate of Merit for the best academic performance in a semester, twice by IISER. Was among the highest scorers four other times.\\
- & ~~2012     & Awarded the \emph{KVPY} fellowship for my work on Stepper Motor Control, by DST, India.\\
- & ~~2010     & Granted financial support for attending the Bright Green Youth climate summit, Denmark.
+ 2015     & Awarded the \emph{Junior Research Fellowship (JRF-NET)} from the Council of Scientific and Industrial Research, India. \\
+          & Awarded the \emph{DAAD WISE} fellowship for a summer internship by and in Germany.\\
+ 2013-16  & Awarded the Certificate of Merit for the best academic performance in a semester, twice by IISER. Was among the highest scorers four other times.\\
+ 2012     & Awarded the \emph{KVPY} fellowship for my work on Stepper Motor Control, by DST, India.\\
+ 2010     & Granted financial support for attending the Bright Green Youth climate summit, Denmark.
 \end{tabular}
-
-
-  \section{Teaching}
-  \begin{tabular}{rrp{11cm}}
-  & ~~2019 &Teaching Assistant. Information Quantique (graduate). ULB, Brussels.\\  
-  & ~~2016 &Teaching Assistant. Thermodynamics (undergraduate). IISER, Mohali.\\
-  & ~~2015 &Teaching Assistant. Classical Mechanics (undergraduate). IISER, Mohali.
-  \end{tabular}
-  
 
 %Section: Languages
 \section{Languages}
 \begin{tabular}{rl}
+ \textsc{Hindi:}&Fluent\\
 \textsc{English:}&Fluent\\
-\textsc{French:}&Basic\\
-\textsc{Hindi:}&Fluent\\
 \textsc{Punjabi:}&Intermediate\\
+\textsc{French:}&Basic\\
 \end{tabular}
 
+\section{Teaching}
+\begin{tabular}{rrp{11cm}}
+& ~~2019 &Teaching Assistant. Information Quantique (graduate). ULB, Brussels.\\  
+& ~~2016 &Teaching Assistant. Thermodynamics (undergraduate). IISER, Mohali.\\
+& ~~2015 &Teaching Assistant. Classical Mechanics (undergraduate). IISER, Mohali.
+\end{tabular}
+
+\section{Conferences}
+\begin{tabular}{rrp{11cm}}
+  & ~~2019 &\textsc{QIP}, University of Colorado, USA. Talk. \emph{Quantum Weak Coin Flipping}. \\
+  & ~~2018 &\textsc{QuantAlgo} Workshop, Université Paris-Diderot, Paris. Talk. \emph{Quantum Weak Coin Flipping beyond bias 1/6}. \\  
+  & ~~2018 &\textsc{QIP}, TU Delft. Poster. \emph{Quantum Weak Coin Flipping with bias 1/10}. \\
+  & ~~2017 &\textsc{TQC}, Paris. Attended.
+  \end{tabular}
 
 % \section{Computer Skills}
 % \begin{tabular}{rl}
@@ -214,14 +182,14 @@ ItalicFont = Fontin-Italic.otf
 
 \section{Interests \& Extracurricular}
 Technology, Open-Source, Programming;\\ 
-Philosophy, Reading; \\
-Fitness; Piano, Guitar, Violin.
+Philosophy---Ethics, Books---non-fiction; \\
+Fitness; Piano, Guitar.
 % \section{Extracurricular}
 
-\textsc{\href{https://qlic-meets.github.io}{QLIC-meets}} --- \emph{Organizer.} {\footnotesize Department meetings/lectures held to facilitate collaboration. Status: Running. } \\
+\textsc{\href{https://quic-meets.github.io}{QuIC-meets}} --- \emph{Organizer.} {\footnotesize A fortnightly department meet to facilitate collaboration. Status: Running. } \\
 \textsc{\href{https://c-est-ca.github.io}{C'est ça}} --- \emph{Editor.} {\footnotesize An at least bilingual peer-reviewed popular science journal. Status: Initialising. }\\
 \textsc{\href{https://gleaned.github.io}{gleaned}} --- \emph{Author.} {\footnotesize Collection of my book summaries. Status: Pilot.}\\
-%\textsc{\href{https://donkeydocs.github.io}{donkeyDocs}} --- \emph{Contributor.} {\footnotesize A repository of lecture notes. Status: Initialising. }\\
+\textsc{\href{https://donkeydocs.github.io}{donkeyDocs}} --- \emph{Contributor.} {\footnotesize A repository of lecture notes. Status: Initialising. }\\
 
 \newpage
 \par{\centering\Large \hypertarget{grds}{Bachelor and Master of Science with a major in \textsc{Physics}}\par}\normalsize
