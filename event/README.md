@@ -3,7 +3,7 @@
 
 My days of enjoying being 27 years old are nearing their end. I am awaiting results from the poll. 
 
-We have a couple of musicians in the guest list so it should be all the more fun. I look forward to seeing you all real soon.
+We have a couple of musicians in the guest list so it should be all the more fun. I look forward to seeing you all soon.
 
 
 
