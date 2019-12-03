@@ -1,0 +1,267 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass scrartcl
+\begin_preamble
+% Adjust the look and feel of the class
+\setkomafont{sectioning}{\normalfont\bfseries}
+\setkomafont{title}{\normalfont\bfseries}
+\setkomafont{pagehead}{\normalfont\small}
+
+% Headings
+\usepackage{scrpage2}
+\pagestyle{scrheadings}
+\ihead{John Doe's Publications (Status: \today{})}
+\ohead{\pagemark}
+\cfoot{}
+
+% Ragged Right with hyphenation
+\usepackage{ragged2e}
+\RaggedRight
+
+% csquotes: not strictly needed, but recommended for biblatex
+\usepackage{csquotes}
+
+% Use \AtBeginDocument since biblatex
+% is loaded after this preamble 
+\AtBeginDocument{%
+  %
+  % the name to omit
+  \plauthorname[John]{Doe}
+  %
+  % An example on how to adjust the look
+  % of the date in the margin
+  % Remove the biblatex option "marginyear=true"
+  % in Document > Settings > Bibliography to
+  % get rid of the year in the margin
+  \usepackage{color}
+  \definecolor{mcolor}{gray}{0.75}
+  \renewcommand\plmarginyear[1]{%
+  \textcolor{mcolor}{\hfill\small\textbf{#1}}}
+}
+
+\usepackage[hidelinks]{hyperref}
+%\usepackage{hyperref}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "libertine" "default"
+\font_sans "biolinum" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command biber
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plain
+\biblio_options marginyear=true
+\biblatex_bibstyle publist
+\biblatex_citestyle publist
+\multibib section
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style british
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\bullet 0 0 0 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Address
+
+\size small
+\color gray
+Atul Singh ARORA
+\begin_inset Newline newline
+\end_inset
+
+Université libre de Bruxelles
+\begin_inset Newline newline
+\end_inset
+
+https://atulsingharora.github.io
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+List of Publications
+\end_layout
+
+\begin_layout Standard
+\align center
+Last updated: 2 December, 2019
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Pre-prints
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newrefsection[preBib]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "preBib"
+biblatexopts "heading=none"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Proceedings
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newrefsection[proBib]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "proBib"
+biblatexopts "heading=none"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Articles
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newrefsection[artBib]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "artBib"
+biblatexopts "heading=none"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
