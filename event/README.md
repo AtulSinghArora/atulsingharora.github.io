@@ -10,7 +10,7 @@ We have a couple of musicians in the guest list so it should be all the more fun
 |          | Details                                  |
 | -------- | ---------------------------------------- |
 | Date     | To be announced                          |
-| Time     | 8 PM (or 20h00) onwards                  |
+| Time     | 7 PM (or 19h00) onwards                  |
 | Location | 48 Rue Aviateur Thieffry, Etterbeek 1040 |
 | Menu     | Beer, Cheese, Bread, Cake, Ice-cream     |
 
