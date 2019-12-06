@@ -7,12 +7,13 @@ We have a couple of musicians in the guest list so it should be all the more fun
 
 
 
-|          | Details                                  |
-| -------- | ---------------------------------------- |
-| Date     | To be announced                          |
-| Time     | 7 PM (or 19h00) onwards                  |
-| Location | 48 Rue Aviateur Thieffry, Etterbeek 1040 |
-| Menu     | Beer, Cheese, Bread, Cake, Ice-cream     |
+|          | Details                                                      |
+| -------- | ------------------------------------------------------------ |
+| Date     | Sunday, 8 December                                           |
+| Time     | 7 PM (or 19h00) onwards                                      |
+| Location | 48 Rue Aviateur Thieffry, Etterbeek 1040                     |
+| Menu     | Beer, Cheese, Bread, Cake, Ice-cream                         |
+| Playlist | Add your song to [the list](https://docs.google.com/spreadsheets/d/1J-loJ7iT9n5aTWZCl9AiB_orrqPVkQiv0nBCxRPnIn8/edit?usp=sharing) and perhaps someone plays it at the party! |
 
 
 
