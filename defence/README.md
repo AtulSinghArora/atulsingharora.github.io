@@ -66,7 +66,7 @@ Thank you for agreeing to participate in the public defence of my dissertation. 
 
 I intend to make the following available at the earliest.
 
-- Thesis <sub><sup>[[pdf](/thesis1v1e_submissionToULB.pdf)]</sup></sub>
+- Thesis <sub><sup>[[pdf](attachments/thesis1v1e_submissionToULB.pdf)]</sup></sub>
 
 - Slides <sub><sup>[upcoming]</sup></sub>
 
