@@ -4,6 +4,8 @@
 
 # Aug 25, 5 PM - 6 PM (CET) | PhD Defence | Atul Singh ARORA
 
+Thank you for agreeing to participate in the public defence of my dissertation. I eagerly look forward to seeing you all. 
+
 
 
 ### Code of Conduct (online)
@@ -18,7 +20,7 @@
 
 - Audio
 
-  - Ensure that you mute yourself when you join.
+  - Ensure that you **mute yourself when you join**.
 
 - Video
 
@@ -55,3 +57,17 @@
 
 
 # [Join now.](https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTU5OTE3YmUtOTAxNy00NmNlLWFhNzItOGQ2MWIzYWEwOTAy%40thread.v2/0?context=%7b%22Tid%22%3a%2230a5145e-75bd-4212-bb02-8ff9c0ea4ae9%22%2c%22Oid%22%3a%22177174ee-6b1b-4516-80cd-4f0a176800ce%22%7d)
+
+
+
+
+
+### Attachments
+
+I intend to make the following available at the earliest.
+
+- Thesis <sub><sup>[[pdf](/thesis1v1e_submissionToULB.pdf)]</sup></sub>
+
+- Slides <sub><sup>[upcoming]</sup></sub>
+
+- Video <sub><sup>[upcoming]</sup></sub>
