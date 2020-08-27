@@ -10,7 +10,7 @@ Thank you for your interest in my work—Quantum Weak Coin Flipping. The slides,
 
 - Slides <sub><sup>[[pptx](CF_defence.pptx)]</sup></sub>
 
-- Video <sub><sup>[[YouTube](https://youtu.be/FzeltRO396w)]</sup></sub>
+- Video <sub><sup>[[YouTube](https://youtu.be/Fx9DWLdjJBw)]</sup></sub>
 
 ### Acknowledgements
 
