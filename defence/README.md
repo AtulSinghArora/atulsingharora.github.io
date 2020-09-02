@@ -8,7 +8,7 @@ Thank you for your interest in my work—Quantum Weak Coin Flipping. The slides,
 
 - Thesis <sub><sup>[[pdf](attachments/thesis1v1e_submissionToULB.pdf)]</sup></sub>
 
-- Slides <sub><sup>[[pptx](CF_defence.pptx)]</sup></sub>
+- Slides <sub><sup>[[pptx](attachments/CF_defence.pptx)]</sup></sub>
 
 - Video <sub><sup>[[YouTube](https://youtu.be/Fx9DWLdjJBw)]</sup></sub>
 
