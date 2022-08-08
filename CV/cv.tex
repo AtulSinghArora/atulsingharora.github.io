@@ -6,6 +6,8 @@
   \setlength{\TPHorizModule}{1cm}
   \setlength{\TPVertModule}{1cm}
 
+  \usepackage{longtable}
+
 \usepackage{marvosym}
 \usepackage{fontspec} 					%for loading fonts
 \usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
@@ -43,6 +45,9 @@ ItalicFont = Fontin-Italic.otf
 
 %Italian hyphenation for the word: ''corporations''
 \hyphenation{im-pre-se}
+
+%-------------Custom commands----------------------
+\newcommand{\su}[1]{{\tiny $^#1$}}
 
 %-------------WATERMARK TEST [**not part of a CV**]---------------
 \usepackage[absolute]{textpos}
@@ -92,41 +97,61 @@ ItalicFont = Fontin-Italic.otf
 
 \begin{tabular}{rl}
     %\textsc{Place and Date of Birth:} & Someplace, Italy  | dd Month 1912 \\
-    \textsc{Address:}   & Rue Aviateur Thieffry 48, Bruxelles -- 1040 \\
-    \textsc{Phone:}     & +32 2 650 29 72\\ 
-    \textsc{Mobile:}      & +32 471 56 00 81\\
-    \textsc{Internet:}     & \href{mailto:atul.singh.arora@ulb.ac.be}{atul.singh.arora@ulb.ac.be}, \href{https://atulsingharora.github.io}{atulsingharora.github.io}
+    \textsc{Address:}   & 1318 Cordova St, Pasadena, CA 91106, USA \\
+    \textsc{Phone:}     & +1 626 318 0732\\ 
+    %\textsc{Mobile:}      
+                        & +1 626 515 4073\\
+    \textsc{Email:}     & \href{mailto:asarora@caltech.edu}{asarora@caltech.edu}, \href{mailto:atul.singh.arora@gmail.com}{atul.singh.arora@gmail.com}%\href{https://atulsingharora.github.io}{atulsingharora.github.io}
 \end{tabular}
 
 %Section: Work Experience at the top
 \section{Research}
-\begin{tabular}{r|p{11cm}}
- \emph{Current}     & PhD Thesis, \textsc{Université libre de Bruxelles (ULB)}, Belgium \\
-                    &\emph{Quantum Cryptography and Communication} \\
+
+\begin{longtable}{r|p{11cm}}
+  \textsc{2021-}\emph{present}
+                   & PostDoc, \textsc{California Institute of Technology}, United States \\
+                   &\small Advisor: Prof. Thomas \textsc{Vidick}\\
+                    &\footnotesize{Showed oracle separations of hybrid quantum-classical circuits and recovered previous results (original proofs had errors).\su{1}} \\
+                    &\footnotesize{Constructed a more robust proof of quantumness, based on computational assumptions. It uses only 2 rounds and does not require the adaptive hardcore bit property (e.g. the Rabin cryptosystem suffices).\su{2}} \\
+                    %&\footnotesize{Completed older projects:}\\
+                    &\footnotesize{Motivated by contextuality, demonstrated self-testing of a single quantum system (includes both theory and experiment).\su{3}} \\
+                    &\footnotesize{Introduced methods to improve the security of device-independent weak coin flipping protocols, resulting in an improvement after a decade.\su{4}}\\ 
+                    &\footnotesize{Collected all our previous results on the topic into a journal version---Solutions to Quantum Weak Coin Flipping.\su{5}}\\
+
+                    &\small{{\tiny $^1$} ASA, A. Gheorghiu, U. Singh. \href{https://arxiv.org/abs/2201.01904}{arXiv:2201.01904} (submitted; \href{https://atulsingharora.github.io/HQC}{web})}\\                                                                     
+                    &\small{{\tiny $^2$} K. Bharti, S. Hung, ASA, et. al. (in preparation; \href{https://www.overleaf.com/read/qzxbvnsfnvxp}{overleaf}}) \\
+                    &\small{{\tiny $^3$} X. Hu, Y. Xie, ASA, M. Ai, K. Bharti, et. al. \href{https://arxiv.org/abs/2203.09003}{arXiv:2203.09003} (submitting)}\\  
+                    &\small{{\tiny $^4$} ASA, J. Sikora, T Van Himbeeck (submitting; \href{https://www.overleaf.com/read/jhwnvgbntqkd}{overleaf}, \href{http://atulsingharora.github.io/DI_WCF}{web})}\\
+                    &\small{{\tiny $^5$} ASA, J. Roland, C. Vlachou, S. Weis. (submitted; \href{https://www.overleaf.com/read/khztgjgdgvmm}{overleaf}})\\
+  \multicolumn{2}{c}{} \\                   
+ \textsc{2016-20}     & PhD Thesis, \textsc{Université libre de Bruxelles (ULB)}, Belgium \\
+                    &\emph{Quantum Weak Coin Flipping} \\
                     &\small Advisor: Prof. Jérémie \textsc{Roland}\\
                     &\footnotesize{Primarily working on quantum weak coin flipping, a cryptographic primitive. Its figure of merit is called the bias, $\epsilon$. The best known had $\epsilon \to 1/6$ by C. Mochon in 2005.} \\
-                    &\footnotesize{~~End of 2017: Protocols with $\epsilon \to 1/10$ were found{\tiny $^1$}. }\\
-                    &\footnotesize{~~End of 2018: An algorithm to numerically find protocols with $\epsilon\to 0$ was given{\tiny $^1$}. }\\
-                    &\footnotesize{~~End of 2019: An exact solution to the problem was found{\tiny $^2$}. }\\
-                    &\footnotesize{On the side, investigated foundational aspects of quantum mechanics{\tiny $^3$}. }\\
-                    &\footnotesize{Current: Simplifying the exact solution. Exploring self-testing using contextuality. Formulating continuous time quantum communication complexity.}\\
-                    &\small{{\tiny $^1$}A.S.A., S. Weis, J. Roland. \href{https://arxiv.org/abs/1811.02984}{arXiv:1811.02984} (\href{https://www.youtube.com/watch?v=eNK6X7BlG5U&list=PLGdMsPGuoD25wLgnY7RBoTAxsnQEMsNA0&index=12}{QIP '19}; \href{http://dx.doi.org/10.1145/3313276.3316306}{STOC '19}; \href{https://atulsingharora.github.io/WCF}{web}) }\\
-                    &\small{{\tiny $^2$}A.S.A., C. Vlachou, J. Roland. \href{https://arxiv.org/abs/1911.13283}{arXiv:1911.13283} (Under Review) }\\
-                    &\small{{\tiny $^3$}K. Bharti, A.S.A, L. C. Kwek, J. Roland. \href{https://arxiv.org/abs/1811.05294}{arXiv:1811.05294} (Under Review) }\\
+                    &\footnotesize{~~End 2017: Protocols with $\epsilon \to 1/10$ were found{\tiny $^1$}. }\\
+                    &\footnotesize{~~End 2018: An algorithm to numerically find protocols with $\epsilon\to 0$ was given{\tiny $^1$}. }\\
+                    &\footnotesize{~~End 2019: An exact (geometric) solution to the problem was found{\tiny $^2$}. }\\
+                    &\footnotesize{~~Mid 2020: A simpler, exact (algebraic) solution to the problem was found{\tiny $^3$}. }\\
+                    &\footnotesize{On the side, investigated foundational aspects of quantum mechanics{\tiny $^4$}. }\\
+                    %&\footnotesize{Current: Simplifying the exact solution. Exploring self-testing using contextuality. Formulating continuous time quantum communication complexity.}\\
+                    &\small{{\tiny $^1$}ASA, J. Roland, S. Weis. \href{https://arxiv.org/abs/1811.02984}{arXiv:1811.02984} (\href{https://www.youtube.com/watch?v=eNK6X7BlG5U&list=PLGdMsPGuoD25wLgnY7RBoTAxsnQEMsNA0&index=12}{QIP '19} \href{http://dx.doi.org/10.1145/3313276.3316306}{STOC '19} \href{https://atulsingharora.github.io/WCF}{web}) }\\
+                    &\small{{\tiny $^2$}ASA, J. Roland, C. Vlachou. \href{https://arxiv.org/abs/1911.13283v1}{arXiv:1911.13283v1}} (\href{https://atulsingharora.github.io/WCF_2}{web})\\
+                    &\small{{\tiny $^3$}ASA, J. Roland, C. Vlachou. \href{https://arxiv.org/abs/1911.13283v2}{arXiv:1911.13283v2} (\href{https://youtu.be/A2GRxspzWUg?t=801}{QCrypt '20} \href{https://youtu.be/nlZ5JhoE0D8}{QIP '21} \href{https://doi.org/10.1137/1.9781611976465.58}{SODA '21} \href{https://atulsingharora.github.io/WCF_2}{web}})\\
+                    &\small{{\tiny $^4$}K. Bharti, A.S.A, L. C. Kwek, J. Roland. \href{https://arxiv.org/abs/1811.05294}{arXiv:1811.05294} (\href{https://link.aps.org/doi/10.1103/PhysRevResearch.2.033010}{Phys. Rev. Res. 2, 033010}) }\\
  \multicolumn{2}{c}{} \\
 
  \textsc{2015-16} & Master's Thesis, \textsc{Indian Institute of Science Education and Research (IISER), Mohali}, India \\
                   &\emph{Contextuality in a Deterministic Quantum Theory}\\
                   &\small Advisor: Prof. Arvind\\ 
-                  &\footnotesize{Concluded that contextuality is not a necessary feature of quantum mechanics and proposed an alternative, non functional-conistency, bolstered by an explicit construction.}\\
-                  &\small{A.S.A., K. Bharti, Arvind. \href{https://arxiv.org/abs/1607.03498}{arXiv:1607.03498}; \href{https://doi.org/10.1016/j.physleta.2018.11.049}{Physics Letters A. (Nov 2018)} }\\            
+                  &\footnotesize{Concluded that contextuality is not a necessary feature of quantum mechanics and proposed an alternative, non functional-consistency, bolstered by an explicit construction.}\\
+                  &\small{ASA, K. Bharti, Arvind. \href{https://arxiv.org/abs/1607.03498}{arXiv:1607.03498}; \href{https://doi.org/10.1016/j.physleta.2018.11.049}{Physics Letters A. (Nov 2018)} }\\            
 \multicolumn{2}{c}{} \\
 
 \textsc{Summer}   & Internship \textsc{University of Siegen}, Germany\\
 2015                  & \emph{Towards a macroscopic test of local realism}\\
                       & \small{Advisor: Prof. Otfried \textsc{Gühne}}\\
                       & \footnotesize{Constructed a Bell inequality using observables bounded in phase space to probe local realism using macroscopic variables.} \\
-                      & \small{A.S.A., A. Asadian. \href{https://arxiv.org/abs/1508.04588}{arXiv:1508.04588}; \href{http://dx.doi.org/10.1103/PhysRevA.92.062107}{Phys. Rev. A 92, 061207} }\\
+                      & \small{ASA, A. Asadian. \href{https://arxiv.org/abs/1508.04588}{arXiv:1508.04588}; \href{http://dx.doi.org/10.1103/PhysRevA.92.062107}{Phys. Rev. A 92, 061207} }\\
                       
 \multicolumn{2}{c}{} \\
 
@@ -137,12 +162,12 @@ ItalicFont = Fontin-Italic.otf
                       {\footnotesize Advisor:} \small{Dr Ravi \textsc{Mehrotra}}.\\
                       &\textsc{Indian Institute of Technology (IIT), Bombay, India.} {\footnotesize Yarn defect recognition using OpenCV.}  
                       {\footnotesize Advisor:} \small{Prof Anirban \textsc{Guha}}.
-\end{tabular}
+\end{longtable}
 
 %Section: Education
 \section{Education}
 \begin{tabular}{rp{11cm}}	
-  \emph{present} & Doctorat en Sciences de l'ingénieur et technologie,\\
+  \textsc{Sep} 2020 & Doctorat en Sciences de l'ingénieur et technologie,\\
  \textsc{Oct} 2016  & \textbf{Université libre de Bruxelles (ULB)}, Belgium.\\
                     & \\
  \textsc{July} 2016 & Bachelor and Master of Science with \textsc{Physics} major,\\
@@ -153,7 +178,17 @@ ItalicFont = Fontin-Italic.otf
 \end{tabular}
 
 \section{Conferences}
-\begin{tabular}{rrp{11cm}}
+\begin{longtable}{rrp{11cm}}
+  & ~~2022 &\textbf{Poster}. \emph{Oracle separations of hybrid quantum-classical circuits}\\
+  &         &Quantum Information Processing (\textsc{QIP}). Caltech, USA\\
+  & ~~2022 &\textbf{Poster}. \emph{Improving the security of device independent weak coin flipping protocols.}\\
+  &         &Quantum Information Processing (\textsc{QIP}). Caltech, USA\\  
+  & ~~2021 &\textbf{Talk}. \emph{Analytic quantum weak coin flipping protocols with arbitrarily small bias}. \\
+  &         &ACM-SIAM Symposium on Discrete Algorithms (\textsc{SODA}). Virtual.\\    
+  & ~~2021 &\textbf{Talk}. \emph{Analytic quantum weak coin flipping protocols $\dots$}. \\
+  &         &Quantum Information Processing (\textsc{QIP}). Virtual/Munich, Germany.\\  
+  & ~~2020 &\textbf{Talk}. \emph{Analytic quantum weak coin flipping protocols $\dots$}. \\
+  &         &\textsc{QCrypt}. Virtual/Amsterdam, Netherlands.\\
   & ~~2019  &\textbf{Participant}. \\
   & ~~~~~~ &\textsc{QuantAlgo} Workshop. CWI, Amsterdam, Netherlands.\\
   & ~~2019 &\textbf{Participant}. \\
@@ -168,7 +203,7 @@ ItalicFont = Fontin-Italic.otf
   & ~~~~~~ &Quantum Information Processing (\textsc{QIP}). TU Delft, Netherlands. \\
   & ~~2017 &\textbf{Participant}. \\
   & ~~~~~~ &Theory of Quantum Computation, Communication and Cryptography (\textsc{TQC}). Paris, France.
-  \end{tabular}
+  \end{longtable}
 
 %Section: Scholarships and additional info
 \section{Recognition }
@@ -219,9 +254,9 @@ Philosophy, Reading; \\
 Fitness; Piano, Guitar, Violin.
 % \section{Extracurricular}
 
-\textsc{\href{https://qlic-meets.github.io}{QLIC-meets}} --- \emph{Organizer.} {\footnotesize Department meetings/lectures held to facilitate collaboration. Status: Running. } \\
-\textsc{\href{https://c-est-ca.github.io}{C'est ça}} --- \emph{Editor.} {\footnotesize An at least bilingual peer-reviewed popular science journal. Status: Initialising. }\\
-\textsc{\href{https://gleaned.github.io}{gleaned}} --- \emph{Author.} {\footnotesize Collection of my book summaries. Status: Pilot.}\\
+% \textsc{\href{https://qlic-meets.github.io}{QLIC-meets}} --- \emph{Organizer.} {\footnotesize Department meetings/lectures held to facilitate collaboration. Status: Running. } \\
+% \textsc{\href{https://c-est-ca.github.io}{C'est ça}} --- \emph{Editor.} {\footnotesize An at least bilingual peer-reviewed popular science journal. Status: Initialising. }\\
+% \textsc{\href{https://gleaned.github.io}{gleaned}} --- \emph{Author.} {\footnotesize Collection of my book summaries. Status: Pilot.}\\
 %\textsc{\href{https://donkeydocs.github.io}{donkeyDocs}} --- \emph{Contributor.} {\footnotesize A repository of lecture notes. Status: Initialising. }\\
 
 \newpage
