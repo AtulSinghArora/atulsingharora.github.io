@@ -12,9 +12,11 @@
 \setkomafont{pagehead}{\normalfont\small}
 
 % Headings
-\usepackage{scrpage2}
+% \usepackage{scrpage2}
+\usepackage{scrlayer-scrpage}
 \pagestyle{scrheadings}
-\ihead{John Doe's Publications (Status: \today{})}
+
+%\ihead{Atul Singh Arora's Publications (\today{})}
 \ohead{\pagemark}
 \cfoot{}
 
@@ -30,7 +32,7 @@
 \AtBeginDocument{%
   %
   % the name to omit
-  \plauthorname[John]{Doe}
+  \plauthorname[Atul Singh]{Arora}
   %
   % An example on how to adjust the look
   % of the date in the margin
@@ -73,7 +75,7 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 2
 \use_package amssymb 2
 \use_package cancel 1
@@ -87,10 +89,9 @@
 \cite_engine biblatex
 \cite_engine_type authoryear
 \biblio_style plain
-\biblio_options marginyear=true
+\biblio_options marginyear=true,maxnames=20
 \biblatex_bibstyle publist
 \biblatex_citestyle publist
-\multibib section
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -102,6 +103,13 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\headheight 1in
+\headsep 1in
+\footskip 0.75in
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -131,11 +139,20 @@ Atul Singh ARORA
 \begin_inset Newline newline
 \end_inset
 
-Université libre de Bruxelles
-\begin_inset Newline newline
+California Institute of Technology
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Address
+
+\size small
+\color gray
+https://atulsingharora.github.io
+\end_layout
+
 \end_inset
 
-https://atulsingharora.github.io
+
 \end_layout
 
 \begin_layout Standard
@@ -148,10 +165,14 @@ List of Publications
 
 \begin_layout Standard
 \align center
-Last updated: 2 December, 2019
+Last updated: 7 November, 2022
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -165,6 +186,11 @@ thispagestyle{empty}
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+ Among these [3,6,7] are my favourite.
 \end_layout
 
 \begin_layout Section

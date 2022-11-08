@@ -6,8 +6,9 @@
   \setlength{\TPHorizModule}{1cm}
   \setlength{\TPVertModule}{1cm}
 
-  \usepackage{longtable}
-
+% \usepackage{pdfpages}
+\usepackage{longtable}
+\usepackage{amssymb}
 \usepackage{marvosym}
 \usepackage{fontspec} 					%for loading fonts
 \usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
@@ -20,8 +21,17 @@
 \usepackage{array}
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
+\usepackage{enumitem}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%MACROS
+\newcommand{\BPP}{\mathsf{BPP}}
+\newcommand{\BQP}{\mathsf{BQP}}
+\newcommand{\QNC}{\mathsf{QNC}}
+\newcommand{\CQ}{\BPP^{\QNC}}
+\newcommand{\QC}{\QNC^{\BPP}}
+\newcommand{\CQC}{\BPP^{\QNC^{\BPP}}}
 
 %FONTS
 \defaultfontfeatures{Mapping=tex-text}
@@ -105,34 +115,64 @@ ItalicFont = Fontin-Italic.otf
 \end{tabular}
 
 %Section: Work Experience at the top
-\section{Research}
+
+\section{Research Experience}
 
 \begin{longtable}{r|p{11cm}}
   \textsc{2021-}\emph{present}
                    & PostDoc, \textsc{California Institute of Technology}, United States \\
                    &\small Advisor: Prof. Thomas \textsc{Vidick}\\
-                    &\footnotesize{Showed oracle separations of hybrid quantum-classical circuits and recovered previous results (original proofs had errors).\su{1}} \\
-                    &\footnotesize{Constructed a more robust proof of quantumness, based on computational assumptions. It uses only 2 rounds and does not require the adaptive hardcore bit property (e.g. the Rabin cryptosystem suffices).\su{2}} \\
+                  &\footnotesize{Primarily studied hybrid models where depth bounded quantum circuits, can be interleaved with $\BPP$ machines.
+                    \begin{itemize}[leftmargin=8pt]
+                      \item[] Showed oracle separations among the different hybrid models.\su{1}
+                      \item[] Characterised quantum depth, relative to a random oracle.\su{2}
+                    \end{itemize}
+                    % }
+                    % \\
+                    % &\footnotesize{~~ End of 2021: Showed oracle separations among the different hybrid models.\su{1}}\\
+                    % &\footnotesize{~~ End of 2022: Characterised quantum depth, relative to a random oracle.\su{2}}\\
                     %&\footnotesize{Completed older projects:}\\
-                    &\footnotesize{Motivated by contextuality, demonstrated self-testing of a single quantum system (includes both theory and experiment).\su{3}} \\
-                    &\footnotesize{Introduced methods to improve the security of device-independent weak coin flipping protocols, resulting in an improvement after a decade.\su{4}}\\ 
-                    &\footnotesize{Collected all our previous results on the topic into a journal version---Solutions to Quantum Weak Coin Flipping.\su{5}}\\
+                    % &\footnotesize{On the side, worked on quantum foundations and quantum coin flipping.}\\
+                    % &\footnotesize{~~ Motivated by contextuality, demonstrated self-testing of a single quantum system (includes both theory and experiment).\su{3}}\\
+                    % &\footnotesize{~~ Introduced methods to improve the security of device-independent weak coin flipping protocols, resulting in an improvement after a decade.\su{4}}\\
+                    % &\footnotesize{~~ Collected all our previous results on the topic into a journal version---Solutions to Quantum Weak Coin Flipping.\su{5}}\\
+                    % &\footnotesize{
+                      On the side, worked on quantum foundations and quantum coin flipping.
+                    \begin{itemize}[leftmargin=8pt]
+                      \item[] Motivated by contextuality, demonstrated self-testing of a single quantum system (includes both theory and experiment).\su{3}
+                      \item[] Introduced methods to improve the security of device-independent weak coin flipping protocols, resulting in an improvement after a decade.\su{4}
+                      \item[] Solutions to Quantum Weak Coin Flipping---collected all our previous results on the topic into a journal version.\su{5}
+                    \end{itemize}
+                    } \\
+                    % &\footnotesize{Motivated by contextuality, demonstrated self-testing of a single quantum system (includes both theory and experiment).\su{3}} \\
+                    % &\footnotesize{Introduced methods to improve the security of device-independent weak coin flipping protocols, resulting in an improvement after a decade.\su{4}}\\ 
+                    % &\footnotesize{Collected all our previous results on the topic into a journal version---Solutions to Quantum Weak Coin Flipping.\su{5}}\\
 
                     &\small{{\tiny $^1$} ASA, A. Gheorghiu, U. Singh. \href{https://arxiv.org/abs/2201.01904}{arXiv:2201.01904} (submitted; \href{https://atulsingharora.github.io/HQC}{web})}\\                                                                     
-                    &\small{{\tiny $^2$} K. Bharti, S. Hung, ASA, et. al. (in preparation; \href{https://www.overleaf.com/read/qzxbvnsfnvxp}{overleaf}}) \\
+                    &\small{{\tiny $^2$} ASA, Coladangelo, Coudron, Gheorghiu, Singh, Waldner.  \href{https://arxiv.org/abs/2210.06454}{arXiv:2210.06454}} \\
+
                     &\small{{\tiny $^3$} X. Hu, Y. Xie, ASA, M. Ai, K. Bharti, et. al. \href{https://arxiv.org/abs/2203.09003}{arXiv:2203.09003} (submitting)}\\  
                     &\small{{\tiny $^4$} ASA, J. Sikora, T Van Himbeeck (submitting; \href{https://www.overleaf.com/read/jhwnvgbntqkd}{overleaf}, \href{http://atulsingharora.github.io/DI_WCF}{web})}\\
-                    &\small{{\tiny $^5$} ASA, J. Roland, C. Vlachou, S. Weis. (submitted; \href{https://www.overleaf.com/read/khztgjgdgvmm}{overleaf}})\\
+                    &\small{{\tiny $^5$} ASA, J. Roland, C. Vlachou, S. Weis. \href{https://eprint.iacr.org/2022/1101}{cryptoeprint:2022/1101} (submitting)}\\
+                    %; \href{https://www.overleaf.com/read/khztgjgdgvmm}{overleaf}})\\
   \multicolumn{2}{c}{} \\                   
  \textsc{2016-20}     & PhD Thesis, \textsc{Université libre de Bruxelles (ULB)}, Belgium \\
                     &\emph{Quantum Weak Coin Flipping} \\
                     &\small Advisor: Prof. Jérémie \textsc{Roland}\\
-                    &\footnotesize{Primarily working on quantum weak coin flipping, a cryptographic primitive. Its figure of merit is called the bias, $\epsilon$. The best known had $\epsilon \to 1/6$ by C. Mochon in 2005.} \\
-                    &\footnotesize{~~End 2017: Protocols with $\epsilon \to 1/10$ were found{\tiny $^1$}. }\\
-                    &\footnotesize{~~End 2018: An algorithm to numerically find protocols with $\epsilon\to 0$ was given{\tiny $^1$}. }\\
-                    &\footnotesize{~~End 2019: An exact (geometric) solution to the problem was found{\tiny $^2$}. }\\
-                    &\footnotesize{~~Mid 2020: A simpler, exact (algebraic) solution to the problem was found{\tiny $^3$}. }\\
-                    &\footnotesize{On the side, investigated foundational aspects of quantum mechanics{\tiny $^4$}. }\\
+                    &\footnotesize{Primarily worked on quantum weak coin flipping, a cryptographic primitive. Its figure of merit is called the bias, $\epsilon$. The best known had $\epsilon \to 1/6$ by C. Mochon in 2005.
+                    \begin{itemize}[leftmargin=8pt]
+                      \item[] Protocols with $\epsilon \to 1/10$ were found{\tiny $^1$}.
+                      \item[] An algorithm to numerically find protocols with $\epsilon\to 0$ was given{\tiny $^1$}.
+                      \item[] An exact (geometric) solution to the problem was found{\tiny $^2$}. 
+                      \item[] A simpler, exact (algebraic) solution to the problem was found{\tiny $^3$}.
+                    \end{itemize}
+                    On the side, investigated foundational aspects of quantum mechanics{\tiny $^4$}. 
+                    } \\
+                    % &\footnotesize{~~End 2017: Protocols with $\epsilon \to 1/10$ were found{\tiny $^1$}. }\\
+                    % &\footnotesize{~~End 2018: An algorithm to numerically find protocols with $\epsilon\to 0$ was given{\tiny $^1$}. }\\
+                    % &\footnotesize{~~End 2019: An exact (geometric) solution to the problem was found{\tiny $^2$}. }\\
+                    % &\footnotesize{~~Mid 2020: A simpler, exact (algebraic) solution to the problem was found{\tiny $^3$}. }\\
+                    % &\footnotesize{On the side, investigated foundational aspects of quantum mechanics{\tiny $^4$}. }\\
                     %&\footnotesize{Current: Simplifying the exact solution. Exploring self-testing using contextuality. Formulating continuous time quantum communication complexity.}\\
                     &\small{{\tiny $^1$}ASA, J. Roland, S. Weis. \href{https://arxiv.org/abs/1811.02984}{arXiv:1811.02984} (\href{https://www.youtube.com/watch?v=eNK6X7BlG5U&list=PLGdMsPGuoD25wLgnY7RBoTAxsnQEMsNA0&index=12}{QIP '19} \href{http://dx.doi.org/10.1145/3313276.3316306}{STOC '19} \href{https://atulsingharora.github.io/WCF}{web}) }\\
                     &\small{{\tiny $^2$}ASA, J. Roland, C. Vlachou. \href{https://arxiv.org/abs/1911.13283v1}{arXiv:1911.13283v1}} (\href{https://atulsingharora.github.io/WCF_2}{web})\\
@@ -172,12 +212,12 @@ ItalicFont = Fontin-Italic.otf
                     & \\
  \textsc{July} 2016 & Bachelor and Master of Science with \textsc{Physics} major,\\
  \textsc{July} 2011 & \textbf{Indian Institute of Science Education and Research (IISER), Mohali}, India.\\
-& CPI: \textbf{9.4} /10. \small Graduated with \emph{rank two.} \hyperlink{grades}{\hfill | \footnotesize Details at the end}\\&\\ 
+& CPI: \textbf{9.4} /10. \small Graduated with \emph{rank two.} \\&\\ 
 % & Thesis: ``Sublinear and Locally Sublinear Prices'' | \small Advisor: Prof. Erio \textsc{Castagnoli}\\
 % &\normalsize \textsc{Gpa}: 28.61/30\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\&\\
 \end{tabular}
 
-\section{Conferences}
+\section{Conferences and Seminars}
 \begin{longtable}{rrp{11cm}}
   & ~~2022 &\textbf{Poster}. \emph{Oracle separations of hybrid quantum-classical circuits}\\
   &         &Quantum Information Processing (\textsc{QIP}). Caltech, USA\\
@@ -185,10 +225,14 @@ ItalicFont = Fontin-Italic.otf
   &         &Quantum Information Processing (\textsc{QIP}). Caltech, USA\\  
   & ~~2021 &\textbf{Talk}. \emph{Analytic quantum weak coin flipping protocols with arbitrarily small bias}. \\
   &         &ACM-SIAM Symposium on Discrete Algorithms (\textsc{SODA}). Virtual.\\    
-  & ~~2021 &\textbf{Talk}. \emph{Analytic quantum weak coin flipping protocols $\dots$}. \\
-  &         &Quantum Information Processing (\textsc{QIP}). Virtual/Munich, Germany.\\  
-  & ~~2020 &\textbf{Talk}. \emph{Analytic quantum weak coin flipping protocols $\dots$}. \\
-  &         &\textsc{QCrypt}. Virtual/Amsterdam, Netherlands.\\
+  & ~~2021 &\textbf{Invited Seminar}. \emph{Analytic quantum weak coin flipping protocols  $\dots$} \\  
+  &        &University of Ottawa (Online). Prof. Broadbent's group.\\
+  & ~~2021 &\textbf{Talk}. \emph{Analytic quantum weak coin flipping protocols $\dots$} \\
+  &         &Quantum Information Processing (\textsc{QIP}). Online/Munich, Germany.\\  
+  & ~~2020 &\textbf{Talk}. \emph{Analytic quantum weak coin flipping protocols $\dots$} \\
+  &         &\textsc{QCrypt}. Online/Amsterdam, Netherlands.\\
+  & ~2020 &\textbf{Invited Seminar}. \emph{Quantum weak coin flipping} \\
+  &         &Perimeter Institute, Canada.\\
   & ~~2019  &\textbf{Participant}. \\
   & ~~~~~~ &\textsc{QuantAlgo} Workshop. CWI, Amsterdam, Netherlands.\\
   & ~~2019 &\textbf{Participant}. \\
@@ -208,6 +252,8 @@ ItalicFont = Fontin-Italic.otf
 %Section: Scholarships and additional info
 \section{Recognition }
 \begin{tabular}{rrp{11cm}}
+  & ~~2020 & \emph{IQIM Postdoctoral Scholarship}, California Institute of Technology. \\
+  & ~~2020 & Offered. \emph{Hartree Postdoctoral Fellowship}, University of Maryland.\\  
   & ~~2019 & Granted financial support for attending the \emph{(Physics) Lindau Nobel Laureate Meeting, 2019}. \\
   & ~~2018 & Renewed. Two year research fellowship from the Belgian \emph{Fonds National Recherche de Science (FNRS)}, through the FRIA grant.\normalsize\\
   & ~~2016 & Awarded. Two year research fellowship from the Belgian \emph{Fonds National Recherche de Science (FNRS)}, through the FRIA grant.\normalsize\\
@@ -226,19 +272,30 @@ ItalicFont = Fontin-Italic.otf
 
   \section{Teaching}
   \begin{tabular}{rrp{11cm}}
+  & ~~2022 &Tutor. Week-long graduate school on post-quantum cryptography. IPAM, UCLA.\\
   & ~~2019 &Teaching Assistant. Information Quantique (graduate). ULB, Brussels.\\  
   & ~~2016 &Teaching Assistant. Thermodynamics (undergraduate). IISER, Mohali.\\
   & ~~2015 &Teaching Assistant. Classical Mechanics (undergraduate). IISER, Mohali.
   \end{tabular}
+
+  \section{Review}
+  Reviewed articles for the following conferences/journals.\\
+  \begin{tabular}{rrp{11cm}}
+    & ~~2022 & MFCS, JACM and QIP\\
+    & ~~2021 & QCrypt\\
+    & ~~2019 & QIP, STOC\\
+    \end{tabular}
   
+
 
 %Section: Languages
 \section{Languages}
 \begin{tabular}{rl}
 \textsc{English:}&Fluent\\
-\textsc{French:}&Basic\\
 \textsc{Hindi:}&Fluent\\
+\textsc{French:}&Intermediate\\
 \textsc{Punjabi:}&Intermediate\\
+\textsc{German:}&Beginner\\
 \end{tabular}
 
 
@@ -249,7 +306,7 @@ ItalicFont = Fontin-Italic.otf
 % \end{tabular}
 
 \section{Interests \& Extracurricular}
-Technology, Open-Source, Programming;\\ 
+Technology, Open-Source, Programming (C/C++, Python, Fortran, Javascript);\\ 
 Philosophy, Reading; \\
 Fitness; Piano, Guitar, Violin.
 % \section{Extracurricular}
@@ -259,45 +316,47 @@ Fitness; Piano, Guitar, Violin.
 % \textsc{\href{https://gleaned.github.io}{gleaned}} --- \emph{Author.} {\footnotesize Collection of my book summaries. Status: Pilot.}\\
 %\textsc{\href{https://donkeydocs.github.io}{donkeyDocs}} --- \emph{Contributor.} {\footnotesize A repository of lecture notes. Status: Initialising. }\\
 
-\newpage
-\par{\centering\Large \hypertarget{grds}{Bachelor and Master of Science with a major in \textsc{Physics}}\par}\normalsize
-\setlength{\extrarowheight}{7pt}
+% \newpage
+% \par{\centering\Large \hypertarget{grds}{Bachelor and Master of Science with a major in \textsc{Physics}}\par}\normalsize
+% \setlength{\extrarowheight}{7pt}
 
-\begin{center}
-\label{grades}
-\begin{tabular}{cp{9cm}c}
-  \textsc{Semester$^*$} & \multicolumn{1}{c}{\textsc{Subjects}} & \textsc{Score} \\
-  \hline
-  1 & Mechanics, Chemistry of elements and chemical transformations, 
-  Cellular basis of life, Symmetry, Language skills B (English), 
-  Introduction to computers, Physics lab I, Chemistry lab I, Biology lab I &8.5/10 \\
-  2 & Electromagnetism, Atoms molecules and symmetry, Gene expression and development, Analysis in one variable,
-  Hands-on electronics, History of science, Physics lab II, Chemistry lab II, Biology lab II &8.6/10 \\
-  3 & Waves and optics, Spectroscopic and other physical methods, Genetics and evolution, Curves and surfaces, 
-  Introduction to astrophysics, Workshop training, Physics lab III, Chemistry lab III, Biology lab III &8.8/10\\
-  4 & Thermodynamics and statistical physics, Energetics and dynamics of chemical reactions, Behaviour and ecology,
-  Probability and statistics, Introduction to quantum physics, Philosophy of science, Physics lab IV, Chemistry lab IV,
-  Biology lab IV& 9.7/10 \\
-  5$^\dagger$ & Classical mechanics, Quantum mechanics, Electrodynamics, Advanced optics lab, Reason and rationality & 10/10\\
-  6 & Statistical mechanics, Atomic and molecular physics, Quantum computation, Advanced electronics and instrumentation
-  lab, Quantum field theory & 9.6/10 \\
-  7 & Solid state physics, Nuclear and particle physics, Nuclear physics lab, Physics of fluids, Quantum principles 
-  and quantum optics, Radiative effects and renormalisation group in relativistic quantum field theory & 9.4/10\\
-  8 & Nonlinear dynamics, Chaos and complex systems, Condensed matter physics lab, computational methods in physics,
-  Standard model and beyond, Selected topics in classical and quantum mechanics& 9.5/10\\
-  9 & Ethics, MS Thesis---Research project I & 10/10 \\
-  10 & Cosmology and galaxy formation, MS Thesis---Research project II & 10/10\\
-  & \cline{2-2}
-  &Cumulative Performance Index (CPI)& \textbf{9.4} /10\\
-  & \\
-  \hline
-\end{tabular}
-\end{center}
-\vspace*{\fill}
-\hrule
-\footnotesize{$*$ Note that the credits associated with each semester are not exactly the same.}
+% \begin{center}
+% \label{grades}
+% \begin{tabular}{cp{9cm}c}
+%   \textsc{Semester$^*$} & \multicolumn{1}{c}{\textsc{Subjects}} & \textsc{Score} \\
+%   \hline
+%   1 & Mechanics, Chemistry of elements and chemical transformations, 
+%   Cellular basis of life, Symmetry, Language skills B (English), 
+%   Introduction to computers, Physics lab I, Chemistry lab I, Biology lab I &8.5/10 \\
+%   2 & Electromagnetism, Atoms molecules and symmetry, Gene expression and development, Analysis in one variable,
+%   Hands-on electronics, History of science, Physics lab II, Chemistry lab II, Biology lab II &8.6/10 \\
+%   3 & Waves and optics, Spectroscopic and other physical methods, Genetics and evolution, Curves and surfaces, 
+%   Introduction to astrophysics, Workshop training, Physics lab III, Chemistry lab III, Biology lab III &8.8/10\\
+%   4 & Thermodynamics and statistical physics, Energetics and dynamics of chemical reactions, Behaviour and ecology,
+%   Probability and statistics, Introduction to quantum physics, Philosophy of science, Physics lab IV, Chemistry lab IV,
+%   Biology lab IV& 9.7/10 \\
+%   5$^\dagger$ & Classical mechanics, Quantum mechanics, Electrodynamics, Advanced optics lab, Reason and rationality & 10/10\\
+%   6 & Statistical mechanics, Atomic and molecular physics, Quantum computation, Advanced electronics and instrumentation
+%   lab, Quantum field theory & 9.6/10 \\
+%   7 & Solid state physics, Nuclear and particle physics, Nuclear physics lab, Physics of fluids, Quantum principles 
+%   and quantum optics, Radiative effects and renormalisation group in relativistic quantum field theory & 9.4/10\\
+%   8 & Nonlinear dynamics, Chaos and complex systems, Condensed matter physics lab, computational methods in physics,
+%   Standard model and beyond, Selected topics in classical and quantum mechanics& 9.5/10\\
+%   9 & Ethics, MS Thesis---Research project I & 10/10 \\
+%   10 & Cosmology and galaxy formation, MS Thesis---Research project II & 10/10\\
+%   & \cline{2-2}
+%   &Cumulative Performance Index (CPI)& \textbf{9.4} /10\\
+%   & \\
+%   \hline
+% \end{tabular}
+% \end{center}
+% \vspace*{\fill}
+% \hrule
+% \footnotesize{$*$ Note that the credits associated with each semester are not exactly the same.}
 
-\footnotesize{$\dagger$ Physics major henceforth.}
+% \footnotesize{$\dagger$ Physics major henceforth.}
+
+
 
 %\newpage
 %\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
