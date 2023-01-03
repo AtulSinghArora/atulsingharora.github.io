@@ -1,5 +1,4 @@
-# 
-## Atul Singh ARORA
+# Atul Singh ARORA
 
  <img align="right" src ="https://user-images.githubusercontent.com/2003122/210131262-a28c9323-be40-4109-a8ad-0fc1f7a1870c.jpeg" width=190 /> 
 
