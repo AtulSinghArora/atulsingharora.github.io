@@ -30,8 +30,8 @@ For my doctoral dissertation (Sep 2022), I was advised by Jérémie ROLAND at [U
 
 ## Research
 
-<details open>
-<summary>
+<!-- <details open> -->
+<!-- <summary> -->
 
 ### Quantum Depth in the Random Oracle Model
 
@@ -39,14 +39,14 @@ For my doctoral dissertation (Sep 2022), I was advised by Jérémie ROLAND at [U
 
 <sub> Oct 2022 [ [arXiv](https://arxiv.org/abs/2210.06454) | [GitHub](https://atulsingharora.github.io/instaDepth) ] —— Nov 2022 [submitted]  </sub>  
 <sub>104 pages (+9 page Appendix), 10 figures
-</summary>
+<!-- </summary> -->
 
 > We give a comprehensive characterisation of the computational power of shallow quantum circuits combined with classical computation. Specifically, for classes of search problems, we show that the following statements hold, relative to a random oracle:  
 (a) $\mathsf{BPP}^{\mathsf{QNC}^{\mathsf{BPP}}} \neq \mathsf{BQP}$. This refutes Jozsa's conjecture [QIP 05] in the random oracle model. As a result, this gives the first instantiatable separation between the classes by replacing the oracle with a cryptographic hash function, yielding a resolution to one of Aaronson's ten semi-grand challenges in quantum computing.  
 (b) $\mathsf{BPP}^{\mathsf{QNC}} \nsubseteq \mathsf{QNC}^{\mathsf{BPP}}$ and $\mathsf{QNC}^{\mathsf{BPP}} \nsubseteq \mathsf{BPP}^{\mathsf{QNC}}$. This shows that there is a subtle interplay between classical computation and shallow quantum computation. In fact, for the second separation, we establish that, for some problems, the ability to perform adaptive measurements in a single shallow quantum circuit, is more useful than the ability to perform polynomially many shallow quantum circuits without adaptive measurements.  
 (c) There exists a 2-message proof of quantum depth protocol. Such a protocol allows a classical verifier to efficiently certify that a prover must be performing a computation of some minimum quantum depth. Our proof of quantum depth can be instantiated using the recent proof of quantumness construction by Yamakawa and Zhandry [FOCS 22].
 
-</details>
+<!-- </details> -->
 
 
 
