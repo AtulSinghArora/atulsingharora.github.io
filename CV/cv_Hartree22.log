@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.8)  9 NOV 2022 06:50
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.8)  1 DEC 2022 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv.tex
-(/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv.tex
+**/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv_Hartree22.tex
+(/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv_Hartree22.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -394,8 +394,8 @@ Package fontspec Info: Font family 'Fontin.otf(0)' created for font
 
 
 TextBlockOrigin set to 2mm x 0.65\paperheight 
-(/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv.aux)
-\openout1 = `cv.aux'.
+(/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv_Hartree22.aux)
+\openout1 = `cv_Hartree22.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
@@ -532,9 +532,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 71.
 LaTeX Info: Redefining \pageref on input line 71.
 LaTeX Info: Redefining \nameref on input line 71.
- (/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv.out) (/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv.out)
+ (/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv_Hartree22.out) (/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv_Hartree22.out)
 \@outlinefile=\write3
-\openout3 = `cv.out'.
+\openout3 = `cv_Hartree22.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 100.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -545,17 +545,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 100.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-] [2] [3] [4] (/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv.aux)
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 7C3C2DFB6CDD5253DDC27693D0F838B0;1018.
+]
+Overfull \vbox (6.94513pt too high) has occurred while \output is active []
+
+ [2] [3] (/Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv_Hartree22.aux)
+Package rerunfilecheck Info: File `cv_Hartree22.out' has not changed.
+(rerunfilecheck)             Checksum: BAF09FD7BEB3DCC0BACCBF98316FACD5;935.
  ) 
 Here is how much of TeX's memory you used:
  16400 strings out of 476919
- 290564 string characters out of 5821840
- 654810 words of memory out of 5000000
+ 290714 string characters out of 5821840
+ 654755 words of memory out of 5000000
  36162 multiletter control sequences out of 15000+600000
  408837 words of font info for 79 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 81i,9n,89p,1258b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 81i,9n,89p,1268b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv.xdv (4 pages, 81912 bytes).
+Output written on /Users/atulsingharora/Documents/GitHub/atulsingharora.github.io/CV/cv_Hartree22.xdv (3 pages, 80692 bytes).
