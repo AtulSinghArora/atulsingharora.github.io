@@ -89,7 +89,7 @@
 \cite_engine biblatex
 \cite_engine_type authoryear
 \biblio_style plain
-\biblio_options marginyear=true,maxnames=10
+\biblio_options marginyear=true,maxnames=20
 \biblatex_bibstyle publist
 \biblatex_citestyle publist
 \use_bibtopic false
@@ -190,7 +190,7 @@ thispagestyle{empty}
 
 \end_inset
 
- Among these [3,6,7] are my favourite.
+ Among these [5,6,7] are my favourite.
 \end_layout
 
 \begin_layout Section
