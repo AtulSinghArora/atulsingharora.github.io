@@ -9,7 +9,11 @@
 
 <!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/86090e43-ac7f-4978-b576-29ce11c69ab5" width=180 /> -->
 
-<img align="right" src ="https://github.com/user-attachments/assets/5fc2c3d2-09d2-49ea-a1c7-91f2b9ca6a93" width=130 />
+<!-- <img align="right" src ="https://github.com/user-attachments/assets/5fc2c3d2-09d2-49ea-a1c7-91f2b9ca6a93" width=130 /> -->
+
+<img align="right" src ="https://github.com/user-attachments/assets/2251c200-1008-4ac6-8982-408f15e6d731" width=130 />
+<!-- ![image](https://github.com/user-attachments/assets/2251c200-1008-4ac6-8982-408f15e6d731) -->
+
 
 <!-- <img align="right" src ="https://github.com/user-attachments/assets/d1ffaf2e-f182-418f-ae85-4103cbe04bc6" width=130 /> -->
 
