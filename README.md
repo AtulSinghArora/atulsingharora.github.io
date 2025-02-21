@@ -38,7 +38,7 @@
 
 <!-- <img align="right" src ="https://user-images.githubusercontent.com/2003122/210131194-0be951ce-4312-44e6-92fc-c8ad91bfa46e.jpeg" width=190 /> -->
 
-I am a researcher, currently at IIIT Hyderabad, India, working as an Assistant Professor. I am fascinated by the emergence of physical insight from the application of quantum mechanics to solving computational or cryptographic tasks. I was initially drawn to the field by the possibility of having information theoretic security in certain cryptographic settings (e.g. key distribution, coin flipping). Currently, I am excited by the prospect of understanding and testing various aspects of quantum physics under computational assumptions. 
+I am a researcher at IIIT Hyderabad, India, working as an Assistant Professor. I am fascinated by the emergence of physical insight from the application of quantum mechanics to solving computational or cryptographic tasks. I was initially drawn to the field by the possibility of having information theoretic security in certain cryptographic settings. Currently, I am excited by the prospect of understanding and testing various aspects of quantum physics under computational assumptions. 
 
 <sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
 
@@ -61,11 +61,11 @@ I spent a year as a Hartree fellow (postdoctoral position) at the [University of
 
 ## Teaching
 
-I am scheduled to start teaching from January. 
+I started teaching from January, 2025. 
 
 | Term | Subject |
 |- | - | 
-| Winter/Spring 2025 | [Quantum aspects of cryptography](https://donkeydocs.github.io) | 
+| Winter/Spring 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | 
 
 ## Research
 
