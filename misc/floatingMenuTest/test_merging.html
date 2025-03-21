@@ -392,7 +392,14 @@
       top: 0;
       z-index: 1000;
       /* background: inherit; */
-      background: #e2e2e2;
+      background: #000000c3;
+      backdrop-filter: blur(3px); /* applies the blur */
+      -webkit-backdrop-filter: blur(3px); /* Safari support */
+      background-color: rgba(0, 0, 0, 0.494); /* semi-transparent background */
+      /* padding: 2rem; */
+      /* border-radius: 12px; */
+      
+
       box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08);
     }
 
@@ -424,22 +431,23 @@
 
     .menu-link {
       text-decoration: none;
-      color: #777;
+      color: #a8a8a8;
       font-weight: lighter;
       padding: 8px 14px;
-      border-radius: 8px;
+      /* border-radius: 8px; */
       transition: color 0.3s ease;
       white-space: nowrap;
       background: inherit
     }
 
     .menu-link:hover {
-      color: #444;
+      color: #cecece;
       background: none;
     }
 
     .menu-link.active {
-      color: #2100c6da;
+      color: #ffffffda;
+      font-weight: normal;
       background: none;
     }
 
