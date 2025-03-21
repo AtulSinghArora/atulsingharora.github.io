@@ -438,7 +438,7 @@
       /* border-radius: 8px; */
       transition: color 0.3s ease;
       white-space: nowrap;
-      background: inherit
+      background: none;
     }
 
     .menu-link:hover {
@@ -476,6 +476,12 @@
         transform: translateY(-10px);
         transition: opacity 0.3s ease, transform 0.3s ease;
         pointer-events: none;
+        backdrop-filter: blur(3px); /* applies the blur */
+      -webkit-backdrop-filter: blur(3px); /* Safari support */
+      /* color: rgba(0, 0, 0, 0.663); semi-transparent background */
+        background: none;
+      background-color: rgba(0, 0, 0, 0.663); 
+
       }
 
       .menu-links.show {
