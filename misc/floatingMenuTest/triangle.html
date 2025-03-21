@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Background</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background: black;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        #canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            filter: blur(3px);
+        }
+
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 5vw;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div class="content">
+        <h1>Welcome to the Interactive Page</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis lorem ac felis scelerisque, at pharetra neque lacinia.</p>
+        <h2>Section One</h2>
+        <p>Suspendisse potenti. Integer venenatis ligula sed justo interdum, at scelerisque orci tempor. Nulla facilisi.</p>
+        <h2>Another Section</h2>
+        <p>Vivamus et mi vel magna sollicitudin feugiat. Ut malesuada purus eget justo dapibus, nec tincidunt orci dictum.</p>
+        <h2>Final Thoughts</h2>
+        <p>Donec eget orci at velit elementum aliquet a sit amet libero. Aenean eu tincidunt lacus. Fusce suscipit ultrices erat.</p>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const gridSpacing = 50;
+        const triangles = [];
+        let mouseX = canvas.width / 2, mouseY = canvas.height / 2;
+
+        class Triangle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.angle = 0;
+            }
+
+            update() {
+                const dx = mouseX - this.x;
+                const dy = mouseY - this.y;
+                this.angle = Math.atan2(dy, dx);
+            }
+
+            draw() {
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                ctx.rotate(this.angle);
+
+                ctx.beginPath();
+                ctx.moveTo(-5, -5);
+                ctx.lineTo(10, 0);
+                ctx.lineTo(-5, 5);
+                ctx.closePath();
+
+                ctx.fillStyle = 'rgba(150, 150, 150, 0.6)';
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+
+        function createTriangles() {
+            triangles.length = 0;
+            for (let y = 0; y < canvas.height; y += gridSpacing) {
+                for (let x = 0; x < canvas.width; x += gridSpacing) {
+                    triangles.push(new Triangle(x, y));
+                }
+            }
+        }
+
+        function updateTriangles() {
+            triangles.forEach(triangle => triangle.update());
+        }
+
+        function drawTriangles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.save();
+            ctx.translate((mouseX - canvas.width / 2) * 0.05, (mouseY - canvas.height / 2) * 0.05);
+            triangles.forEach(triangle => triangle.draw());
+            ctx.restore();
+        }
+
+        function animate() {
+            updateTriangles();
+            drawTriangles();
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            createTriangles();
+        });
+
+        createTriangles();
+        animate();
+    </script>
+</body>
+</html>

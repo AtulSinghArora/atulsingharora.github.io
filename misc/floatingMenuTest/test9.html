@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Auto-Generated Scroll Menu</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #222;
+    }
+
+    main {
+      padding: 40px 5vw;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h2[id] {
+      margin-top: 100vh;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      padding-top: 80px; /* space for sticky menu */
+      color: #111;
+    }
+
+    p {
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    .sticky-menu {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      z-index: 1000;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 12px 5vw;
+    }
+
+    .menu-links {
+      display: flex;
+      gap: 12px;
+    }
+
+    .menu-link {
+      text-decoration: none;
+      color: #777;
+      font-weight: bold;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: color 0.3s ease;
+      white-space: nowrap;
+      background: none;
+    }
+
+    .menu-link:hover {
+      color: #444;
+      background: none;
+    }
+
+    .menu-link.active {
+      color: #000;
+      background: none;
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 26px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      .menu-links {
+        display: none;
+        flex-direction: column;
+        width: calc(100% - 10vw);
+        max-width: 100%;
+        background: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 5vw;
+        border-top: 1px solid #ccc;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        pointer-events: none;
+      }
+
+      .menu-links.show {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Menu Header -->
+  <header class="sticky-menu">
+    <span style="font-weight:lighter;" align="left">atulsingharora.github.io</span>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav class="menu-links" id="menuLinks">
+      <!-- Menu links will be generated here -->
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="section1">Education</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl eget quam sollicitudin, a rutrum urna gravida.</p>
+
+    <h2 id="section2">Research</h2>
+    <p>Aliquam erat volutpat. Cras vulputate diam et turpis iaculis, nec tincidunt tortor feugiat.</p>
+
+    <h2 id="section3">Publications</h2>
+    <p>Donec auctor, justo vel ultricies sodales, orci nisi consectetur metus, vel fermentum diam turpis nec libero.</p>
+
+    <h2 id="section4">Updates</h2>
+    <p>Ut placerat velit vitae enim cursus, sit amet tempus ex iaculis. Sed ut magna convallis, sagittis magna sed, posuere nisi.</p>
+    <p style="margin-bottom:200px;">More dummy text at the end for scroll space.</p>
+  </main>
+
+  <script>
+    const sections = document.querySelectorAll("h2[id]");
+    const menuContainer = document.getElementById("menuLinks");
+
+    // Dynamically generate menu links based on H2s
+    sections.forEach(section => {
+      const link = document.createElement("a");
+      link.href = `#${section.id}`;
+      link.textContent = section.textContent;
+      link.className = "menu-link";
+      menuContainer.appendChild(link);
+    });
+
+    function highlightMenu() {
+      const scrollPosition = window.scrollY + window.innerHeight / 3;
+      let currentSectionId = "";
+
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 2) {
+        currentSectionId = sections[sections.length - 1].id;
+      } else {
+        sections.forEach(section => {
+          if (scrollPosition >= section.offsetTop) {
+            currentSectionId = section.id;
+          }
+        });
+      }
+
+      const menuLinks = document.querySelectorAll(".menu-link");
+      menuLinks.forEach(link => {
+        link.classList.toggle("active", link.getAttribute("href") === `#${currentSectionId}`);
+      });
+    }
+
+    window.addEventListener("scroll", highlightMenu);
+    window.addEventListener("load", () => {
+      highlightMenu();
+
+      // Close mobile menu on link click
+      document.querySelectorAll(".menu-link").forEach(link => {
+        link.addEventListener("click", () => {
+          document.getElementById("menuLinks").classList.remove("show");
+        });
+      });
+    });
+
+    function toggleMenu() {
+      document.getElementById("menuLinks").classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>

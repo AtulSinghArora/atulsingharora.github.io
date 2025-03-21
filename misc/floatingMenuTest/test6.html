@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Greyscale Sticky Scroll Menu</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #222;
+    }
+
+    main {
+      padding: 40px 5vw;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-top: 100vh;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      padding-top: 80px;
+      color: #111;
+    }
+
+    p {
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    .sticky-menu {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      z-index: 1000;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 12px 5vw;
+    }
+
+    .menu-links {
+      display: flex;
+      gap: 12px;
+    }
+
+    .menu-link {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: background 0.3s, color 0.3s;
+      white-space: nowrap;
+    }
+
+    .menu-link:hover {
+      background-color: #e0e0e0;
+    }
+
+    .menu-link.active {
+      background-color: #444;
+      color: white;
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 26px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      .menu-links {
+        display: none;
+        flex-direction: column;
+        width: calc(100% - 10vw);
+        max-width: 100%;
+        background: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 5vw;
+        border-top: 1px solid #ccc;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        pointer-events: none;
+      }
+
+      .menu-links.show {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Menu Header -->
+  <header class="sticky-menu">
+    <!-- Removed "Menu" text -->
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav class="menu-links" id="menuLinks">
+      <a href="#section1" class="menu-link">Section 1</a>
+      <a href="#section2" class="menu-link">Section 2</a>
+      <a href="#section3" class="menu-link">Section 3</a>
+      <a href="#section4" class="menu-link">Section 4</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 id="section1">Section 1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra nisl eget quam sollicitudin, a rutrum urna gravida.</p>
+
+    <h1 id="section2">Section 2</h1>
+    <p>Aliquam erat volutpat. Cras vulputate diam et turpis iaculis, nec tincidunt tortor feugiat.</p>
+
+    <h1 id="section3">Section 3</h1>
+    <p>Donec auctor, justo vel ultricies sodales, orci nisi consectetur metus, vel fermentum diam turpis nec libero.</p>
+
+    <h1 id="section4">Section 4</h1>
+    <p>Ut placerat velit vitae enim cursus, sit amet tempus ex iaculis. Sed ut magna convallis, sagittis magna sed, posuere nisi.</p>
+    <p>Extra content to ensure scrolling to very bottom:</p>
+    <p style="margin-bottom:200px;">More dummy text... More dummy text... More dummy text...</p>
+  </main>
+
+  <script>
+    const sections = document.querySelectorAll("h1[id]");
+    const menuLinks = document.querySelectorAll(".menu-link");
+
+    function highlightMenu() {
+      const scrollPosition = window.scrollY + window.innerHeight / 3;
+      let currentSectionId = "";
+
+      // Fix: If at the bottom, force last section as active
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 2) {
+        currentSectionId = sections[sections.length - 1].id;
+      } else {
+        sections.forEach(section => {
+          if (scrollPosition >= section.offsetTop) {
+            currentSectionId = section.id;
+          }
+        });
+      }
+
+      menuLinks.forEach(link => {
+        link.classList.toggle("active", link.getAttribute("href") === `#${currentSectionId}`);
+      });
+    }
+
+    window.addEventListener("scroll", highlightMenu);
+    window.addEventListener("load", highlightMenu);
+
+    function toggleMenu() {
+      const menu = document.getElementById("menuLinks");
+      menu.classList.toggle("show");
+    }
+
+    // Auto-close mobile menu on link click
+    menuLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        const menu = document.getElementById("menuLinks");
+        menu.classList.remove("show");
+      });
+    });
+  </script>
+</body>
+</html>

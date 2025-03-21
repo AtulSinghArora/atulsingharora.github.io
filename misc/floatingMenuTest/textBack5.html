@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parallax Lorem Ipsum - Light Mode</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      color: #222;
+      background: #f9f9f9;
+      overflow-x: hidden;
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 200vh;
+      z-index: -1;
+      overflow: hidden;
+      pointer-events: none;
+      will-change: transform;
+    }
+
+    .bg-text {
+      position: absolute;
+      font-size: 2.5rem;
+      color: rgba(0, 0, 0, 0.05);
+      filter: blur(3px);
+      user-select: none;
+      white-space: nowrap;
+      will-change: transform;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 100px 2rem;
+      z-index: 1;
+    }
+
+    h1, h2 {
+      color: #111;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Blur Texts -->
+  <div class="background" id="background"></div>
+
+  <!-- Foreground Content -->
+  <div class="content">
+    <h1>Lorem Ipsum Heading</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+
+    <h2>Subheading One</h2>
+    <p>Suspendisse potenti. Etiam feugiat, sem sed venenatis condimentum, augue sapien vulputate tellus, at dapibus nulla risus sed risus.</p>
+
+    <h2>Subheading Two</h2>
+    <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+    <h2>Subheading Three</h2>
+    <p>Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet.</p>
+
+    <p>Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero.</p>
+
+    <p>Donec vel sapien augue. Vivamus dapibus rhoncus nisl, a efficitur nisi hendrerit id. Curabitur imperdiet eros nec lorem scelerisque, nec fermentum nisi bibendum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis justo ut ipsum porta, sed vulputate nunc pulvinar.</p>
+
+
+    <h1>Lorem Ipsum Heading</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
+
+    <h2>Subheading One</h2>
+    <p>Suspendisse potenti. Etiam feugiat, sem sed venenatis condimentum, augue sapien vulputate tellus, at dapibus nulla risus sed risus.</p>
+
+    <h2>Subheading Two</h2>
+    <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+    <h2>Subheading Three</h2>
+    <p>Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet.</p>
+
+    <p>Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero.</p>
+
+    <p>Donec vel sapien augue. Vivamus dapibus rhoncus nisl, a efficitur nisi hendrerit id. Curabitur imperdiet eros nec lorem scelerisque, nec fermentum nisi bibendum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis justo ut ipsum porta, sed vulputate nunc pulvinar.</p>
+
+
+
+
+
+    </div>
+
+  <script>
+    const bgContainer = document.getElementById("background");
+    const numberOfTexts = 20;
+    const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+
+    const bgElements = [];
+
+    for (let i = 0; i < numberOfTexts; i++) {
+      const el = document.createElement("div");
+      el.classList.add("bg-text");
+      el.textContent = lorem;
+
+      // Randomize positioning and properties
+      const top = Math.random() * 200; // vh
+      const left = Math.random() * 100; // vw
+      const scale = 0.8 + Math.random() * 0.6;
+      const depth = 0.2 + Math.random() * 0.3;
+
+      el.style.top = `${top}vh`;
+      el.style.left = `${left}vw`;
+      el.dataset.depth = depth;
+      el.dataset.scale = scale;
+      el.style.transform = `translateY(0px) scale(${scale})`;
+      bgContainer.appendChild(el);
+      bgElements.push(el);
+    }
+
+    // Smooth parallax using requestAnimationFrame
+    let latestScrollY = 0;
+
+    const updateParallax = () => {
+      for (const el of bgElements) {
+        const depth = parseFloat(el.dataset.depth);
+        const scale = el.dataset.scale;
+        const translateY = latestScrollY * depth;
+        el.style.transform = `translateY(${translateY}px) scale(${scale})`;
+      }
+      requestAnimationFrame(updateParallax);
+    };
+
+    const onScroll = () => {
+      latestScrollY = window.scrollY;
+    };
+
+    window.addEventListener('scroll', onScroll);
+    requestAnimationFrame(updateParallax);
+  </script>
+
+</body>
+</html>
