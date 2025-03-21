@@ -406,25 +406,25 @@
 
     .menu-left .menu-label {
       font-weight: lighter;
-      font-size: 1.1rem;
+      font-size: 1.1rem; /* 1.1 */
       color: #333;
     }
 
     .menu-right {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 1px;
     }
 
     .menu-links {
       display: flex;
-      gap: 12px;
+      gap: 1px;
     }
 
     .menu-link {
       text-decoration: none;
       color: #777;
-      font-weight: bold;
+      font-weight: lighter;
       padding: 8px 14px;
       border-radius: 8px;
       transition: color 0.3s ease;
@@ -501,7 +501,8 @@
     <div class="sticky-menu-wrapper">
       <header class="sticky-menu">
         <div class="menu-left">
-          <span class="menu-label">atulsingharora.github.io</span>
+          <!-- <typewriter>atulsingharora.github.io </typewriter> -->
+          <!-- <span class="menu-label"></span> -->
         </div>
         <div class="menu-right">
           <button class="menu-toggle" onclick="toggleMenu()">☰</button>
