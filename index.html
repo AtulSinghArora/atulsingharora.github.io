@@ -472,23 +472,29 @@
         top: 38px;
         right: 0;
         padding: 10px 5vw;
-        border-top: 1px solid #ccc;
-        opacity: 0;
+        /* border-top: 1px solid #ccc; */
+        /* opacity: 0; */
         pointer-events: none;
-        color: rgba(0, 0, 0, 0.663); 
+        color: rgba(0, 0, 0, 1); 
+        background-color: rgba(0, 0, 0, 0); 
         backdrop-filter: blur(3px); /* applies the blur */
         -webkit-backdrop-filter: blur(3px); /* Safari support */
         /* background: none; */
-        background-color: rgba(0, 0, 0, 0.663); 
         
         transform: translateY(-10px);
-        transition: opacity 0.3s ease, transform 0.3s ease;
+        /* transition: opacity 0.3s ease, transform 0.3s ease; */
+        transition: transform 5.0s ease;
       }
 
       .menu-links.show {
         display: flex;
-        opacity: 1;
+        /* opacity: 1; */
         transform: translateY(0);
+        background-color: rgba(0, 0, 0, 0.7); 
+
+        backdrop-filter: blur(10px); /* applies the blur */
+        -webkit-backdrop-filter: blur(10px); /* Safari support */
+
         pointer-events: auto;
       }
 
