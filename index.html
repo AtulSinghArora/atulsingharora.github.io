@@ -490,8 +490,8 @@
         -webkit-backdrop-filter: blur(3px); /* Safari support */
         /* background: none; */
         
-        transform: translateY(-10px);
-        transition: opacity 0.3s ease, transform 0.3s ease;
+        transform: translateY(0px); /* Was -10px; looked nicer, but because Safari wasn't doing a great job, set it to 0px %/
+        transition: opacity 0.3s ease, transform 0.3s ease; filter 0.3s ease;
         /* transition: transform 0.3s ease, backdrop-filter ease; */
       }
 
@@ -500,6 +500,7 @@
         display: flex;
         opacity: 1;
         transform: translateY(0);
+        transform: blur(10px);
         background-color: rgba(0, 0, 0, 0.9); 
 
         backdrop-filter: blur(10px); /* applies the blur */
