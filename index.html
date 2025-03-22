@@ -439,7 +439,7 @@
       transition: color 0.3s ease;
       white-space: nowrap;
       background: none;
-      /* font-size: medium; */
+      font-size: medium;
     }
 
     .menu-link:hover {
@@ -459,7 +459,7 @@
       background: none;
       border: none;
       cursor: pointer;
-      color: #333;
+      color: #b4b4b4;
     }
 
     @media (max-width: 768px) {
@@ -467,22 +467,22 @@
         display: none;
         flex-direction: column;
         width: calc(100% - 10vw);
-        background: #fff;
+        /* background: #fff; */
         position: absolute;
-        top: 60px;
+        top: 38px;
         right: 0;
         padding: 10px 5vw;
         border-top: 1px solid #ccc;
         opacity: 0;
-        transform: translateY(-10px);
-        transition: opacity 0.3s ease, transform 0.3s ease;
         pointer-events: none;
         color: rgba(0, 0, 0, 0.663); 
         backdrop-filter: blur(3px); /* applies the blur */
         -webkit-backdrop-filter: blur(3px); /* Safari support */
         /* background: none; */
         background-color: rgba(0, 0, 0, 0.663); 
-
+        
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
       }
 
       .menu-links.show {
