@@ -19,7 +19,7 @@
       max-width: 46em;
       padding-left: 50px;
       padding-right: 50px;
-      padding-top: 50px;
+      padding-top: 0px;
       padding-bottom: 50px;
       hyphens: auto;
       overflow-wrap: break-word;
@@ -351,27 +351,38 @@
       box-sizing: border-box;
     }
 
-    body {
+    /* body {
       font-family: sans-serif;
       margin: 0;
       padding: 0;
       background: #fafafa;
       color: #222;
-    }
+    } */
 
-    main {
+    /* main {
       padding: 40px 5vw;
       max-width: 900px;
       margin: 0 auto;
+    } */
+
+        h2 {
+      margin-top: 5rem;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      scroll-margin-top: 100px;
+      color: #111;
     }
 
-    h2 {
+    h3 {
+      margin-top: 1em;
+    }
+    /* h2 {
       margin-top: 100vh;
       margin-bottom: 1rem;
       font-size: 2rem;
       padding-top: 80px; /* space for sticky menu */
       color: #111;
-    }
+    } */
 
     p {
       line-height: 1.7;
@@ -382,54 +393,63 @@
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: #fff;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      /* background: inherit; */
+      background: #00000097;
+      backdrop-filter: blur(3px); /* applies the blur */
+      -webkit-backdrop-filter: blur(3px); /* Safari support */
+      background-color: rgba(0, 0, 0, 0.663); /* semi-transparent background */
+      /* padding: 2rem; */
+      /* border-radius: 12px; */
+      
+
+      box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08);
     }
 
     .sticky-menu {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 12px 5vw;
+      padding: 0px 1vw;
       max-width: 900px;
       margin: 0 auto;
     }
 
     .menu-left .menu-label {
       font-weight: lighter;
-      font-size: 1.1rem;
+      font-size: 1.1rem; /* 1.1 */
       color: #333;
     }
 
     .menu-right {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 1px;
     }
 
     .menu-links {
       display: flex;
-      gap: 12px;
+      gap: 1px;
     }
 
     .menu-link {
       text-decoration: none;
-      color: #777;
-      font-weight: bold;
+      color: #a8a8a8;
+      font-weight: lighter;
       padding: 8px 14px;
-      border-radius: 8px;
+      /* border-radius: 8px; */
       transition: color 0.3s ease;
       white-space: nowrap;
-      background: none;
+      background: inherit
     }
 
     .menu-link:hover {
-      color: #444;
+      color: #cecece;
       background: none;
     }
 
     .menu-link.active {
-      color: #000;
+      color: #ffffffda;
+      font-weight: normal;
       background: none;
     }
 
@@ -492,7 +512,8 @@
     <div class="sticky-menu-wrapper">
       <header class="sticky-menu">
         <div class="menu-left">
-          <span class="menu-label">atulsingharora.github.io</span>
+          <!-- <typewriter>atulsingharora.github.io </typewriter> -->
+          <!-- <span class="menu-label"></span> -->
         </div>
         <div class="menu-right">
           <button class="menu-toggle" onclick="toggleMenu()">☰</button>
@@ -504,7 +525,7 @@
     </div>
 
     <main>
-<h1 id="atul-singh-arora">Atul Singh ARORA</h2>
+<h1 id="atul-singh-arora">Atul Singh ARORA</h1>
 <!-- pandoc.org/try -->
 <p><!-- <img align="right" src ="https://user-images.githubusercontent.com/2003122/210131262-a28c9323-be40-4109-a8ad-0fc1f7a1870c.jpeg" width=190 />  -->
 <!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/be641605-5d9c-421f-b3ce-37a10fa93077" width=190 /> --></p>
@@ -577,6 +598,9 @@ Cryptography</a></td>
 </tr>
 </tbody>
 </table>
+
+<!-- <br/><br/><br/> -->
+
 <h2 id="research">Research</h2>
 <details open>
 <summary>
