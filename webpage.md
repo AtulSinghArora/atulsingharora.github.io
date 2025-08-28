@@ -44,7 +44,7 @@ I am a researcher at IIIT Hyderabad, India, working as an Assistant Professor. I
 
 I spent a year as a Hartree fellow (postdoctoral position) at the [University of Maryland](https://quics.umd.edu/people/atul-singh-arora). Prior to that, I was a postdoctoral researcher at [Caltech](https://iqim.caltech.edu/people/postdocs/), under the supervision of Prof Thomas VIDICK. For my doctoral dissertation (Sep 2020), I was advised by Prof Jérémie ROLAND at [Université libre de Bruxelles](http://quic.ulb.ac.be/members/past). I obtained my Bachelor's and Master's (May 2016) from [IISER Mohali](https://www.iisermohali.ac.in/students/people-sublinks/bs-ms-2011-batch), (India). I majored in physics and my master's thesis advisor was Prof Arvind. 
 
-I am not looking for students at present but intend to start by around February 2026. 
+I am not looking for students at present but intend to start by around February 2026. Happy to informally discuss research/science. Email is the best way to reach me.
 
 <sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
 <!-- <sub>[ [curriculum vitae](https://atulsingharora.github.io/CV/cv.pdf) ] (last updated: 2023 end) </sub> -->
