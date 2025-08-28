@@ -40,15 +40,14 @@
 
 I am a researcher at IIIT Hyderabad, India, working as an Assistant Professor. I am fascinated by the emergence of physical insight from the application of quantum mechanics to solving computational or cryptographic tasks. I was initially drawn to the field by the possibility of having information theoretic security in certain cryptographic settings. Currently, I am excited by the prospect of understanding and testing various aspects of quantum physics under computational assumptions. 
 
-<sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
-
-
-
-## Education
+<!-- ## Education -->
 
 I spent a year as a Hartree fellow (postdoctoral position) at the [University of Maryland](https://quics.umd.edu/people/atul-singh-arora). Prior to that, I was a postdoctoral researcher at [Caltech](https://iqim.caltech.edu/people/postdocs/), under the supervision of Prof Thomas VIDICK. For my doctoral dissertation (Sep 2020), I was advised by Prof Jérémie ROLAND at [Université libre de Bruxelles](http://quic.ulb.ac.be/members/past). I obtained my Bachelor's and Master's (May 2016) from [IISER Mohali](https://www.iisermohali.ac.in/students/people-sublinks/bs-ms-2011-batch), (India). I majored in physics and my master's thesis advisor was Prof Arvind. 
 
-<sub>[ [curriculum vitae](https://atulsingharora.github.io/CV/cv.pdf) ] (last updated: 2023 end) </sub>
+I am not looking for students at present but intend to start by around February 2026. 
+
+<sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
+<!-- <sub>[ [curriculum vitae](https://atulsingharora.github.io/CV/cv.pdf) ] (last updated: 2023 end) </sub> -->
 
 
 <!-- 
@@ -57,6 +56,7 @@ I spent a year as a Hartree fellow (postdoctoral position) at the [University of
 | Sep 2020 | PhD | *Université libre de Bruxelles*, Belgium. Advisor: Prof Jérémie ROLAND |
 | May 2016 | BS-MS (Phys Maj) | *Indian Institute of Science Education and Research (IISER)*, Mohali, India. Master's thesis advisor: Prof Arvind | 
  -->
+
 
 ## Recent
 
