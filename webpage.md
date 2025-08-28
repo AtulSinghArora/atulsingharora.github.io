@@ -58,6 +58,12 @@ I spent a year as a Hartree fellow (postdoctoral position) at the [University of
 | May 2016 | BS-MS (Phys Maj) | *Indian Institute of Science Education and Research (IISER)*, Mohali, India. Master's thesis advisor: Prof Arvind | 
  -->
 
+## Recent
+
+* University of Edinburgh. Quantum Fringe Event. Invited Talk. June 2nd to 4th, 2025.
+* University of Edinburgh. Research Stay. June 1st to 21st, 2025. Hosted by Alexandru Cojocaru.
+* Started the [Quantum Meets](https://quantum-iiit.github.io/) initiative.
+* Taught my first course—[Quantum Aspects of Cryptography](https://donkeydocs.github.io)
 
 ## Teaching
 
@@ -65,7 +71,7 @@ I started teaching from January, 2025.
 
 | Term | Subject |
 |- | - | 
-| Winter/Spring 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | 
+| Spring Term (Jan to mid May) 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | 
 
 ## Research
 
