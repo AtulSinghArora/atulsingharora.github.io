@@ -1,63 +1,29 @@
 ## Atul Singh ARORA
 
-<!-- pandoc.org/try -->
- <!-- <img align="right" src ="https://user-images.githubusercontent.com/2003122/210131262-a28c9323-be40-4109-a8ad-0fc1f7a1870c.jpeg" width=190 />  -->
- <!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/be641605-5d9c-421f-b3ce-37a10fa93077" width=190 /> -->
 
-<!-- ![image](https://github.com/AtulSinghArora/QR/assets/2003122/3b08e6fa-707d-45ec-96df-7bec77c01f48) -->
-
-<!-- ![profile_](https://github.com/AtulSinghArora/QR/assets/2003122/86090e43-ac7f-4978-b576-29ce11c69ab5) -->
-
-<!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/86090e43-ac7f-4978-b576-29ce11c69ab5" width=180 /> -->
-
-<!-- <img align="right" src ="https://github.com/user-attachments/assets/5fc2c3d2-09d2-49ea-a1c7-91f2b9ca6a93" width=130 /> -->
 
 <img align="right" src ="https://github.com/user-attachments/assets/2251c200-1008-4ac6-8982-408f15e6d731" width=130 />
-<!-- ![image](https://github.com/user-attachments/assets/2251c200-1008-4ac6-8982-408f15e6d731) -->
 
-
-<!-- <img align="right" src ="https://github.com/user-attachments/assets/d1ffaf2e-f182-418f-ae85-4103cbe04bc6" width=130 /> -->
-
-<!-- ![image](https://github.com/user-attachments/assets/1052bcc5-82fc-4475-aaa2-274e342317d8) -->
-
-<!-- ![AtulHartreePress_git](https://github.com/user-attachments/assets/5fc2c3d2-09d2-49ea-a1c7-91f2b9ca6a93) -->
-
-<!-- ![image](https://github.com/user-attachments/assets/d1ffaf2e-f182-418f-ae85-4103cbe04bc6) -->
-
-
-<!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/3b08e6fa-707d-45ec-96df-7bec77c01f48" width=180 /> -->
-
- <!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/4dee787a-c3ef-4c66-8ee2-a103c53e1f7a" width=140 /> -->
-
-<!-- ![frml_ARORA_Feb_2024_cropped_](https://github.com/AtulSinghArora/QR/assets/2003122/4dee787a-c3ef-4c66-8ee2-a103c53e1f7a) -->
-
- 
- <!-- ![image](https://github.com/AtulSinghArora/QR/assets/2003122/db42f393-06e9-4f59-b8c6-8611ac8c40f3) Formal -->
-
-<!-- ![inf_ARORA_Feb_2024](https://github.com/AtulSinghArora/QR/assets/2003122/be641605-5d9c-421f-b3ce-37a10fa93077) Informal -->
-
-<!-- <img align="right" src ="https://user-images.githubusercontent.com/2003122/210131194-0be951ce-4312-44e6-92fc-c8ad91bfa46e.jpeg" width=190 /> -->
 
 I am a researcher at IIIT Hyderabad, India, working as an Assistant Professor. I am fascinated by the emergence of physical insight from the application of quantum mechanics to solving computational or cryptographic tasks. I was initially drawn to the field by the possibility of having information theoretic security in certain cryptographic settings. Currently, I am excited by the prospect of understanding and testing various aspects of quantum physics under computational assumptions. 
 
+
+I spent a year (roughly the year 2024) as a Hartree fellow (postdoctoral position) at the [University of Maryland](https://quics.umd.edu/people/atul-singh-arora). Prior to that, I was a postdoctoral researcher at [Caltech](https://iqim.caltech.edu/people/postdocs/), under the supervision of Prof Thomas VIDICK for about two and a half years, from 2021 to 2023. For my doctoral dissertation, I was advised by Prof Jérémie ROLAND at [Université libre de Bruxelles](http://quic.ulb.ac.be/members/past) and the degree was awarded in Sep 2020. I obtained my Bachelor's and Master's in May 2016 from [IISER Mohali](https://www.iisermohali.ac.in/students/people-sublinks/bs-ms-2011-batch), (India). I majored in physics and my master's thesis advisor was Prof Arvind. 
+
+I am not looking for students at present but intend to start by around February 2026. Happy to informally discuss research/science. Email is the best way to reach me.
+
 <sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
+<!-- <sub>[ [curriculum vitae](https://atulsingharora.github.io/CV/cv.pdf) ] (last updated: 2023 end) </sub> -->
 
 
 
-## Education
 
-I spent a year as a Hartree fellow (postdoctoral position) at the [University of Maryland](https://quics.umd.edu/people/atul-singh-arora). Prior to that, I was a postdoctoral researcher at [Caltech](https://iqim.caltech.edu/people/postdocs/), under the supervision of Prof Thomas VIDICK. For my doctoral dissertation (Sep 2020), I was advised by Prof Jérémie ROLAND at [Université libre de Bruxelles](http://quic.ulb.ac.be/members/past). I obtained my Bachelor's and Master's (May 2016) from [IISER Mohali](https://www.iisermohali.ac.in/students/people-sublinks/bs-ms-2011-batch), (India). I majored in physics and my master's thesis advisor was Prof Arvind. 
+## Recent
 
-<sub>[ [curriculum vitae](https://atulsingharora.github.io/CV/cv.pdf) ] (last updated: 2023 end) </sub>
-
-
-<!-- 
-|Awarded |Degree | Institute |
-|-|-|-|
-| Sep 2020 | PhD | *Université libre de Bruxelles*, Belgium. Advisor: Prof Jérémie ROLAND |
-| May 2016 | BS-MS (Phys Maj) | *Indian Institute of Science Education and Research (IISER)*, Mohali, India. Master's thesis advisor: Prof Arvind | 
- -->
-
+* University of Edinburgh. Quantum Fringe Event. Invited Talk. June 2nd to 4th, 2025.
+* University of Edinburgh. Research Stay. June 1st to 21st, 2025. Hosted by Alexandru Cojocaru.
+* Started the [Quantum Meets](https://quantum-iiit.github.io/) initiative.
+* Taught my first course—[Quantum Aspects of Cryptography](https://donkeydocs.github.io)
 
 ## Teaching
 
@@ -65,7 +31,7 @@ I started teaching from January, 2025.
 
 | Term | Subject |
 |- | - | 
-| Winter/Spring 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | 
+| Spring Term (Jan to mid May) 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | 
 
 ## Research
 
