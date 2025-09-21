@@ -32,6 +32,7 @@ At present, I am working on three projects: cheat-penalised coin flipping, fully
 * Jan–May 2025. Taught my first course—[Quantum Aspects of Cryptography](https://donkeydocs.github.io)
 * Dec 2024. *QIP'25 Acceptance.* A computational test of quantum contextuality, and even simpler proofs of quantumness.
 * Dec 2024. Started a faculty position at the [Centre of Quantum Science and Technology (CQST)](https://cqst.iiit.ac.in), at *IIIT Hyderabad*.
+* Sep 24–Oct 4, 2024. *Research Stay.* Hosted by Andrea Coladangelo. *University of Washington, Seattle.*
 
 ## Teaching
 
