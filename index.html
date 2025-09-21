@@ -559,12 +559,12 @@
       buttonColorDark: '#100f2c',  // button color in dark mode
       buttonColorLight: '#fff',    // button color in light mode
       saveInCookies: true,  // remember user preference
-      label: '🌓' // emoji or text for the button
-      // autoMatchOsTheme: true // match OS setting at start
+      label: '🌓', // emoji or text for the button
+      autoMatchOsTheme: true // match OS setting at start
     };
     function addDarkmodeWidget() {
-      // new Darkmode(darkmode_options).showWidget();
-      new Darkmode().showWidget();
+      new Darkmode(darkmode_options).showWidget();
+      // new Darkmode().showWidget();
     }
     window.addEventListener('load', addDarkmodeWidget);
   </script>
@@ -597,6 +597,8 @@
 
       // Inject into page
       document.getElementById(contentID).innerHTML += html;
+
+      MathJax.typesetPromise([document.getElementById(contentID)])
     }
   </script>
 
