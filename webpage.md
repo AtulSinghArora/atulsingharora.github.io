@@ -33,6 +33,7 @@ At present, I am working on three projects: cheat-penalised coin flipping, fully
 * Dec 2024. *QIP'25 Acceptance.* A computational test of quantum contextuality, and even simpler proofs of quantumness.
 * Dec 2024. Started a faculty position at the [Centre of Quantum Science and Technology (CQST)](https://cqst.iiit.ac.in), at *IIIT Hyderabad*.
 * Sep 24–Oct 4, 2024. *Research Stay.* Hosted by Andrea Coladangelo. *University of Washington, Seattle.*
+* Oct 27–30, 2024. *FOCS 2024.* Presented our work on contextuality. *Chicago.*
 
 ## Teaching
 
