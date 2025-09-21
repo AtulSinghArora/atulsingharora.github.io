@@ -26,8 +26,8 @@ At present, I am working on three projects: cheat-penalised coin flipping, fully
 
 ### Recent
 
-* Jun 2nd to 4th, 2025. *University of Edinburgh.* Quantum Fringe Event. *Invited Talk.*
-* Jun 1st to 21st, 2025. *University of Edinburgh.* Research Stay. Hosted by Alexandru Cojocaru.
+* Jun 2nd to 4th, 2025. *Invited Talk.* Quantum Fringe Event. *University of Edinburgh.* 
+* Jun 1st to 21st, 2025. *Research Stay.* Hosted by Alexandru Cojocaru. *University of Edinburgh.* 
 * Feb 2025. Started the [Quantum Meets](https://quantum-iiit.github.io/) initiative. As of Sep 21st 2025, we have had over twenty speakers.
 * Jan–May 2025. Taught my first course—[Quantum Aspects of Cryptography](https://donkeydocs.github.io)
 * Dec 2024. *QIP'25 Acceptance.* A computational test of quantum contextuality, and even simpler proofs of quantumness.
