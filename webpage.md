@@ -22,7 +22,7 @@ I am not looking for students at present but intend to start by around February 
 
 ### Present
 
-At present, I am working on three projects: cheat-penalised coin flipping, fully adversarial self-testing (FAST) and one specific aspect of quantum thermodynamics with computationally bounded adversaries. Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our [centre's website](https://cqst.iiit.ac.in). 
+At present, I am working on three projects: cheat-penalised coin flipping, fully adversarial self-testing (FAST) and one specific aspect of quantum thermodynamics with computationally bounded adversaries. Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our centre's [current website](https://cqst.iiit.ac.in). 
 
 ### Recent
 
