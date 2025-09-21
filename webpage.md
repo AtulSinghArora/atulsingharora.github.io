@@ -18,7 +18,7 @@ I am not looking for students at present but intend to start by around February 
 
 
 
-## Recent
+## Updates
 
 * University of Edinburgh. Quantum Fringe Event. Invited Talk. June 2nd to 4th, 2025.
 * University of Edinburgh. Research Stay. June 1st to 21st, 2025. Hosted by Alexandru Cojocaru.
