@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown Section Loader</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script>
+        const markdownUrl = "https://raw.githubusercontent.com/AtulSinghArora/atulsingharora.github.io/master/webpage.md";
+        // const headingToExtract = "## Recent"; // <-- change this
+
+        async function loadSection(headingToExtract, contentID) {
+            const res = await fetch(markdownUrl);
+            const text = await res.text();
+
+            // Determine heading level from the string (count #)
+            const level = headingToExtract.match(/^#+/)[0].length;
+
+            // Regex: match from headingToExtract until next heading of same or higher level
+            const regex = new RegExp(
+                `${headingToExtract}[\\s\\S]*?(?=\\n#{1,${level}}\\s|$)`,
+                "i"
+            );
+
+            const match = text.match(regex);
+            const section = match ? match[0] : "Section not found.";
+
+            // Convert markdown → HTML
+            const html = marked.parse(section);
+
+            // Inject into page
+            document.getElementById(contentID).innerHTML += html;
+        }
+    </script>
+
+</head>
+
+<body>
+    <h1>Dynamic Markdown Demo</h1>
+    Glaba Glebu
+    <div id="content">
+        <script>loadSection("## Recent", "content")</script>
+    </div>
+    Bam Bam Bom bom
+    <div id="glebu">
+        <script>loadSection("## Teaching", "glebu")</script>
+
+    </div>
+</body>
+
+</html>
