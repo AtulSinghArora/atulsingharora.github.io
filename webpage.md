@@ -35,11 +35,11 @@ At present, I am working on three projects: cheat-penalised coin flipping, fully
 
 ## Teaching
 
-I started teaching from January, 2025. 
+I taught my very first course from Jan–May, 2025. 
 
-| Term | Subject |
-|- | - | 
-| Spring Term (Jan to mid May) 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | 
+| Term | Subject | Description |
+|- | - | - |
+| Spring Term (Jan to mid May) 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | This course starts by quickly reviewing the basics of quantum information, and modern (classical) cryptography. It then covers various exciting topics in quantum cryptography—many of which have only recently been discovered. Last time, we looked at non-locality (entanglement, Bell’s theorem), certified deletion, uncloneable  encryption (in the random oracle model), Haar measures, commitments from pseudorandom states, cryptography using assumptions potentially weaker than P≠NP, self-testing and verification. This barely scratches the surface and subsequent iterations of the course are likely to have a different selection of topics. The exams in this course do not have a strict upper limit on the time, and students are allowed to carry one piece of paper with handwritten notes. Assessments focus on testing understanding as opposed to memory and other factors.  |
 
 ## Research
 
