@@ -20,7 +20,7 @@ I am not looking for students at present but intend to start by around February 
 
 ## Updates
 
-At present, I am working on cheat-penalised coin flipping, and fully adversarial self-testing (FAST). Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our [centre's website](https://cqst.iiit.ac.in). 
+At present, I am working on three projects: cheat-penalised coin flipping, fully adversarial self-testing (FAST) and one specific aspect of quantum thermodynamics with computationally bounded adversaries. Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our [centre's website](https://cqst.iiit.ac.in). 
 
 ### Chronology
 * Jun 2nd to 4th, 2025. *University of Edinburgh.* Quantum Fringe Event. *Invited Talk.*
