@@ -334,7 +334,7 @@
     }
 
     body {
-      font-family: 'Linux Libertine', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+      font-family: 'Linux Libertine', -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
       /* Times, serif; */
       /*, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
     }
@@ -643,10 +643,10 @@
 
 
     <h2 id="Seminars">Quantum Meets</h2>
-    <!-- <div id="div_qm">  
-      <script>loadSection("## About", "div_qm",markdownUrl_qm)</script>
-    </div> -->
-    <details open>
+    <div id="div_qm">
+      <script>loadSection("## About", "div_qm", markdownUrl_qm)</script>
+    </div>
+    <details>
       <summary>
         <h3>Calendar</h3>
       </summary>
@@ -657,35 +657,27 @@
     </details>
 
     <details>
-      <summary> 
+      <summary>
         <h3>Upcoming Event(s)</h2>
       </summary>
-        <div id="div_qm_details">
-          <script>loadSection("## Upcoming", "div_qm_details", markdownUrl_qm)</script>
-        </div>
+      <div id="div_qm_details">
+        <script>loadSection("## Upcoming", "div_qm_details", markdownUrl_qm)</script>
+      </div>
     </details>
 
 
-      <!-- I coordinate <a href="https://quantum-iiit.github.io">Quantum Meets</a>—an online quantum seminar series. We have
-      been fortunate enough to have an amazing line-up of speakers. -->
-      <!-- <br /><br /> -->
+
+    <h2 id="research">Research</h2>
+    <div id="div_research">
+      <script>loadSection("## Research", "div_research")</script>
+    </div>
+
+    <h2 id="teaching">Teaching</h2>
+    <div id="div_teaching">
+      <script>loadSection("## Teaching", "div_teaching")</script>
+    </div>
 
 
-      <h2 id="teaching">Teaching</h2>
-      <div id="div_teaching">
-        <script>loadSection("## Teaching", "div_teaching")</script>
-      </div>
-
-      <h2 id="research">Research</h2>
-      <div id="div_research">
-        <script>loadSection("## Research", "div_research")</script>
-      </div>
-
-      <!-- <script>MathJax.typesetPromise()
-        .then(() => {
-          console.log("MathJax re-rendered!");
-        })
-        .catch((err) => console.error("MathJax error:", err));</script> -->
   </main>
 
 
