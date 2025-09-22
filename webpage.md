@@ -1,73 +1,65 @@
 ## Atul Singh ARORA
 
-<!-- pandoc.org/try -->
- <!-- <img align="right" src ="https://user-images.githubusercontent.com/2003122/210131262-a28c9323-be40-4109-a8ad-0fc1f7a1870c.jpeg" width=190 />  -->
- <!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/be641605-5d9c-421f-b3ce-37a10fa93077" width=190 /> -->
 
-<!-- ![image](https://github.com/AtulSinghArora/QR/assets/2003122/3b08e6fa-707d-45ec-96df-7bec77c01f48) -->
-
-<!-- ![profile_](https://github.com/AtulSinghArora/QR/assets/2003122/86090e43-ac7f-4978-b576-29ce11c69ab5) -->
-
-<!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/86090e43-ac7f-4978-b576-29ce11c69ab5" width=180 /> -->
-
-<!-- <img align="right" src ="https://github.com/user-attachments/assets/5fc2c3d2-09d2-49ea-a1c7-91f2b9ca6a93" width=130 /> -->
 
 <img align="right" src ="https://github.com/user-attachments/assets/2251c200-1008-4ac6-8982-408f15e6d731" width=130 />
-<!-- ![image](https://github.com/user-attachments/assets/2251c200-1008-4ac6-8982-408f15e6d731) -->
 
-
-<!-- <img align="right" src ="https://github.com/user-attachments/assets/d1ffaf2e-f182-418f-ae85-4103cbe04bc6" width=130 /> -->
-
-<!-- ![image](https://github.com/user-attachments/assets/1052bcc5-82fc-4475-aaa2-274e342317d8) -->
-
-<!-- ![AtulHartreePress_git](https://github.com/user-attachments/assets/5fc2c3d2-09d2-49ea-a1c7-91f2b9ca6a93) -->
-
-<!-- ![image](https://github.com/user-attachments/assets/d1ffaf2e-f182-418f-ae85-4103cbe04bc6) -->
-
-
-<!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/3b08e6fa-707d-45ec-96df-7bec77c01f48" width=180 /> -->
-
- <!-- <img align="right" src ="https://github.com/AtulSinghArora/QR/assets/2003122/4dee787a-c3ef-4c66-8ee2-a103c53e1f7a" width=140 /> -->
-
-<!-- ![frml_ARORA_Feb_2024_cropped_](https://github.com/AtulSinghArora/QR/assets/2003122/4dee787a-c3ef-4c66-8ee2-a103c53e1f7a) -->
-
- 
- <!-- ![image](https://github.com/AtulSinghArora/QR/assets/2003122/db42f393-06e9-4f59-b8c6-8611ac8c40f3) Formal -->
-
-<!-- ![inf_ARORA_Feb_2024](https://github.com/AtulSinghArora/QR/assets/2003122/be641605-5d9c-421f-b3ce-37a10fa93077) Informal -->
-
-<!-- <img align="right" src ="https://user-images.githubusercontent.com/2003122/210131194-0be951ce-4312-44e6-92fc-c8ad91bfa46e.jpeg" width=190 /> -->
 
 I am a researcher at IIIT Hyderabad, India, working as an Assistant Professor. I am fascinated by the emergence of physical insight from the application of quantum mechanics to solving computational or cryptographic tasks. I was initially drawn to the field by the possibility of having information theoretic security in certain cryptographic settings. Currently, I am excited by the prospect of understanding and testing various aspects of quantum physics under computational assumptions. 
 
+
+I spent a year (roughly the year 2024) as a Hartree fellow (postdoctoral position) at the [University of Maryland](https://quics.umd.edu/people/atul-singh-arora). Prior to that, I was a postdoctoral researcher at [Caltech](https://iqim.caltech.edu/people/postdocs/), under the supervision of Prof Thomas VIDICK for about two and a half years, from 2021 to 2023. For my doctoral dissertation, I was advised by Prof Jérémie ROLAND at [Université libre de Bruxelles](http://quic.ulb.ac.be/members/past) and the degree was awarded in Sep 2020. I obtained my Bachelor's and Master's in May 2016 from [IISER Mohali](https://www.iisermohali.ac.in/students/people-sublinks/bs-ms-2011-batch), (India). I majored in physics and my master's thesis advisor was Prof Arvind. 
+
+I am not looking for students at present but intend to start by around February 2026. Happy to informally discuss research/science. Email is the best way to reach me.
+
 <sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
+<!-- <sub>[ [curriculum vitae](https://atulsingharora.github.io/CV/cv.pdf) ] (last updated: 2023 end) </sub> -->
 
 
 
-## Education
 
-I spent a year as a Hartree fellow (postdoctoral position) at the [University of Maryland](https://quics.umd.edu/people/atul-singh-arora). Prior to that, I was a postdoctoral researcher at [Caltech](https://iqim.caltech.edu/people/postdocs/), under the supervision of Prof Thomas VIDICK. For my doctoral dissertation (Sep 2020), I was advised by Prof Jérémie ROLAND at [Université libre de Bruxelles](http://quic.ulb.ac.be/members/past). I obtained my Bachelor's and Master's (May 2016) from [IISER Mohali](https://www.iisermohali.ac.in/students/people-sublinks/bs-ms-2011-batch), (India). I majored in physics and my master's thesis advisor was Prof Arvind. 
+## Updates
 
-<sub>[ [curriculum vitae](https://atulsingharora.github.io/CV/cv.pdf) ] (last updated: 2023 end) </sub>
+### Present
 
+At present, I am working on three projects: cheat-penalised coin flipping, fully adversarial self-testing (FAST) and one specific aspect of quantum thermodynamics with computationally bounded adversaries. Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our centre's [current website](https://cqst.iiit.ac.in). 
 
-<!-- 
-|Awarded |Degree | Institute |
-|-|-|-|
-| Sep 2020 | PhD | *Université libre de Bruxelles*, Belgium. Advisor: Prof Jérémie ROLAND |
-| May 2016 | BS-MS (Phys Maj) | *Indian Institute of Science Education and Research (IISER)*, Mohali, India. Master's thesis advisor: Prof Arvind | 
- -->
-
+### Recent
+* Sep 16th, 2025. *TheoretiCS Acceptance.* Protocols for weak coin flipping.
+* Jun 2nd to 4th, 2025. *Invited Talk.* Quantum Fringe Event. *University of Edinburgh.* 
+* Jun 1st to 21st, 2025. *Research Stay.* Hosted by Alexandru Cojocaru. *University of Edinburgh.* 
+* Feb 2025. Started the [Quantum Meets](https://quantum-iiit.github.io/) initiative. As of Sep 21st 2025, we have had over twenty speakers.
+* Jan–May 2025. Taught my first course—[Quantum Aspects of Cryptography](https://donkeydocs.github.io)
+* Dec 2024. *QIP'25 Acceptance.* A computational test of quantum contextuality, and even simpler proofs of quantumness.
+* Dec 2024. Started a faculty position at the [Centre of Quantum Science and Technology (CQST)](https://cqst.iiit.ac.in), at *IIIT Hyderabad*.
+* Sep 24–Oct 4, 2024. *Research Stay.* Hosted by Andrea Coladangelo. *University of Washington, Seattle.*
+* Oct 27–30, 2024. *Presented at FOCS 2024.* A computational test of quantum contextuality, and even simpler proofs of quantumness. *Chicago.*
 
 ## Teaching
 
-I started teaching from January, 2025. 
+I taught my very first course from Jan–May, 2025. 
 
-| Term | Subject |
-|- | - | 
-| Winter/Spring 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | 
+| Term | Subject | Description |
+|- | - | - |
+| Spring Term (Jan to mid May) 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | This course starts by quickly reviewing the basics of quantum information, and modern (classical) cryptography. It then covers various exciting topics in quantum cryptography—many of which have only recently been discovered. Last time, we looked at non-locality (entanglement, Bell’s theorem), certified deletion, uncloneable  encryption (in the random oracle model), Haar measures, commitments from pseudorandom states, cryptography using assumptions potentially weaker than P≠NP, self-testing and verification. This barely scratches the surface and subsequent iterations of the course are likely to have a different selection of topics. The exams in this course do not have a strict upper limit on the time, and students are allowed to carry one piece of paper with handwritten notes. Assessments focus on testing understanding as opposed to memory and other factors.  |
 
 ## Research
+
+<details open>
+<summary>
+
+### Cheat-penalised weak coin-flipping
+*Atul Singh Arora, Carl Miller, Mauro E.S. Morales, Jamie Sikora*
+
+<sub> Sep 2025 [ [GitHub](https://atulsingharora.github.io/penWCF) ] </sub>  
+<sub>  60 pages, 11 Figures  </sub>
+
+</summary> 
+
+> Coin-flipping is a fundamental task in two-party cryptography where two remote mistrustful parties wish to generate a shared uniformly random bit. While quantum protocols promising near-perfect security exist for *weak* coin-flipping—when the parties want opposing outcomes—it has been shown that they must be inefficient in terms of their round complexity, and it is an open question of how space efficient they can be. In this work, we consider a variant called *cheat-penalised* weak coin-flipping in which a cheating party loses $\Lambda$ points (compared to $0$ in the standard definition). We find that already for a small cheating penalty, the landscape of coin-flipping changes dramatically. For example, with $\Lambda=0.01$, we exhibit a protocol where neither Alice nor Bob can bias the result in their favour beyond $1/2 + 10^{-8}$, which uses $24$ qubits and $10^{16}$ rounds of communication (provably $1000$ times better than any weak coin-flipping protocol with matching security). For the same space requirements, we demonstrate how one can choose between lower bias (down to $1/2 + 10^{-10}$) or better round complexity (down to $25,180$), depending on what is preferred. To find these protocols, we make two technical contributions. First, we extend the point game-protocol correspondence introduced by Kitaev and Mochon, to incorporate: (i) approximate point games, (ii) the cheat-penalised setting, and (iii) round and space complexity. Second, we give the first (to the best of our knowledge) numerical algorithm for constructing (approximate) point games that correspond to high security and low round complexity. Our results open up the possibility of having secure and practical quantum protocols for multiparty computation. 
+
+</details>
+
 
 
 <details open>
@@ -131,7 +123,7 @@ proposed in the literature so far.
 ### Improving device independent weak coin flipping protocols
 *Atul Singh Arora, Jamie Sikora, Tom Van Himbeeck*
 
- <sub> Apr 2024 [ [arXiv](https://arxiv.org/abs/2404.17079) ] —— [submitted]  </sub>  
+ <sub> Apr 2024 [ [arXiv](https://arxiv.org/abs/2404.17079) ] —— [revising]  </sub>  
 <sub> 25 pages, 7 figures </sub>
 
 </summary> 
