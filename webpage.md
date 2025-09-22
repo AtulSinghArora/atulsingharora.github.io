@@ -123,7 +123,7 @@ proposed in the literature so far.
 ### Improving device independent weak coin flipping protocols
 *Atul Singh Arora, Jamie Sikora, Tom Van Himbeeck*
 
- <sub> Apr 2024 [ [arXiv](https://arxiv.org/abs/2404.17079) ] —— [submitted]  </sub>  
+ <sub> Apr 2024 [ [arXiv](https://arxiv.org/abs/2404.17079) ] —— [revising]  </sub>  
 <sub> 25 pages, 7 figures </sub>
 
 </summary> 
