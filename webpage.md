@@ -25,7 +25,7 @@ I am not looking for students at present but intend to start by around February 
 At present, I am working on three projects: cheat-penalised coin flipping, fully adversarial self-testing (FAST) and one specific aspect of quantum thermodynamics with computationally bounded adversaries. Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our centre's [current website](https://cqst.iiit.ac.in). 
 
 ### Recent
-
+* Sep, 2025. *TheoretICS Acceptance.* Protocols for weak coin flipping.
 * Jun 2nd to 4th, 2025. *Invited Talk.* Quantum Fringe Event. *University of Edinburgh.* 
 * Jun 1st to 21st, 2025. *Research Stay.* Hosted by Alexandru Cojocaru. *University of Edinburgh.* 
 * Feb 2025. Started the [Quantum Meets](https://quantum-iiit.github.io/) initiative. As of Sep 21st 2025, we have had over twenty speakers.
@@ -33,7 +33,7 @@ At present, I am working on three projects: cheat-penalised coin flipping, fully
 * Dec 2024. *QIP'25 Acceptance.* A computational test of quantum contextuality, and even simpler proofs of quantumness.
 * Dec 2024. Started a faculty position at the [Centre of Quantum Science and Technology (CQST)](https://cqst.iiit.ac.in), at *IIIT Hyderabad*.
 * Sep 24–Oct 4, 2024. *Research Stay.* Hosted by Andrea Coladangelo. *University of Washington, Seattle.*
-* Oct 27–30, 2024. *FOCS 2024.* Presented our work on contextuality. *Chicago.*
+* Oct 27–30, 2024. *Presented at FOCS 2024.* A computational test of quantum contextuality, and even simpler proofs of quantumness. *Chicago.*
 
 ## Teaching
 
