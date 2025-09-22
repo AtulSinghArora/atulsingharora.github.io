@@ -25,7 +25,7 @@ I am not looking for students at present but intend to start by around February 
 At present, I am working on three projects: cheat-penalised coin flipping, fully adversarial self-testing (FAST) and one specific aspect of quantum thermodynamics with computationally bounded adversaries. Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our centre's [current website](https://cqst.iiit.ac.in). 
 
 ### Recent
-* Sep, 2025. *TheoretICS Acceptance.* Protocols for weak coin flipping.
+* Sep 16th, 2025. *TheoretICS Acceptance.* Protocols for weak coin flipping.
 * Jun 2nd to 4th, 2025. *Invited Talk.* Quantum Fringe Event. *University of Edinburgh.* 
 * Jun 1st to 21st, 2025. *Research Stay.* Hosted by Alexandru Cojocaru. *University of Edinburgh.* 
 * Feb 2025. Started the [Quantum Meets](https://quantum-iiit.github.io/) initiative. As of Sep 21st 2025, we have had over twenty speakers.
@@ -44,6 +44,22 @@ I taught my very first course from Jan–May, 2025.
 | Spring Term (Jan to mid May) 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | This course starts by quickly reviewing the basics of quantum information, and modern (classical) cryptography. It then covers various exciting topics in quantum cryptography—many of which have only recently been discovered. Last time, we looked at non-locality (entanglement, Bell’s theorem), certified deletion, uncloneable  encryption (in the random oracle model), Haar measures, commitments from pseudorandom states, cryptography using assumptions potentially weaker than P≠NP, self-testing and verification. This barely scratches the surface and subsequent iterations of the course are likely to have a different selection of topics. The exams in this course do not have a strict upper limit on the time, and students are allowed to carry one piece of paper with handwritten notes. Assessments focus on testing understanding as opposed to memory and other factors.  |
 
 ## Research
+
+<details open>
+<summary>
+
+### Cheat-penalised weak coin-flipping
+*Atul Singh Arora, Carl Miller, Mauro E.S. Morales, Jamie Sikora*
+
+<sub> Sep 2025 [ [GitHub](https://atulsingharora.github.io/penWCF) ] </sub>  
+<sub>  60 pages, 11 Figures  </sub>
+
+</summary> 
+
+> Coin-flipping is a fundamental task in two-party cryptography where two remote mistrustful parties wish to generate a shared uniformly random bit. While quantum protocols promising near-perfect security exist for *weak* coin-flipping—when the parties want opposing outcomes—it has been shown that they must be inefficient in terms of their round complexity, and it is an open question of how space efficient they can be. In this work, we consider a variant called *cheat-penalised* weak coin-flipping in which a cheating party loses $\Lambda$ points (compared to $0$ in the standard definition). We find that already for a small cheating penalty, the landscape of coin-flipping changes dramatically. For example, with $\Lambda=0.01$, we exhibit a protocol where neither Alice nor Bob can bias the result in their favour beyond $1/2 + 10^{-8}$, which uses $24$ qubits and $10^{16}$ rounds of communication (provably $1000$ times better than any weak coin-flipping protocol with matching security). For the same space requirements, we demonstrate how one can choose between lower bias (down to $1/2 + 10^{-10}$) or better round complexity (down to $25,180$), depending on what is preferred. To find these protocols, we make two technical contributions. First, we extend the point game-protocol correspondence introduced by Kitaev and Mochon, to incorporate: (i) approximate point games, (ii) the cheat-penalised setting, and (iii) round and space complexity. Second, we give the first (to the best of our knowledge) numerical algorithm for constructing (approximate) point games that correspond to high security and low round complexity. Our results open up the possibility of having secure and practical quantum protocols for multiparty computation. 
+
+</details>
+
 
 
 <details open>
