@@ -572,6 +572,7 @@
   <script>
     const markdownUrl = "https://raw.githubusercontent.com/AtulSinghArora/atulsingharora.github.io/master/webpage.md";
     const markdownUrl_qm = "https://raw.githubusercontent.com/quantum-iiit/quantum-iiit.github.io/refs/heads/main/content.md";
+    // const markdownUrl_qm = "https://raw.githubusercontent.com/quantum-iiit/quantum-iiit.github.io/refs/heads/main/content.md";
     // const headingToExtract = "## Recent"; // <-- change this
 
     async function loadSection(headingToExtract, contentID, inputUrl = markdownUrl) {
@@ -631,23 +632,23 @@
       <script>loadSection("## Atul Singh ARORA", "div_atul-singh-arora")</script>
     </div>
 
-    <!-- <div id="div_qm">  
-      <script>loadSection("## Upcoming", "div_qm",markdownUrl_qm)</script>
-    </div> -->
-
+    
     <h2 id="Updates">Updates</h2>
     <div id="div_updates">
       <script>loadSection("## Updates", "div_updates")</script>
     </div>
-
+    
     <h2 id="teaching">Teaching</h2>
     <div id="div_teaching">
       <script>loadSection("## Teaching", "div_teaching")</script>
     </div>
-
+    
     <h2 id="Seminars">Quantum Meets</h2>
-    I coordinate <a href="https://quantum-iiit.github.io">Quantum Meets</a>—an online quantum seminar series. We have
-    been fortunate enough to have an amazing line-up of speakers.
+    <div id="div_qm">  
+      <script>loadSection("## About", "div_qm",markdownUrl_qm)</script>
+    </div>
+    <!-- I coordinate <a href="https://quantum-iiit.github.io">Quantum Meets</a>—an online quantum seminar series. We have
+    been fortunate enough to have an amazing line-up of speakers. -->
     <br /><br />
     <iframe
       src="https://calendar.google.com/calendar/embed?height=550&wkst=1&ctz=Asia%2FKolkata&showPrint=0&hl=en_GB&mode=AGENDA&title=Quantum%20Meets&src=YjAyNDI5YjRkZWQ5Yzc2YTFlNWU2OTE2MjFkOWRhOTI2M2QzMzkzZDU1ZWZiYTc3MDg2ZjhiNjg4NDcwZDU4OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238e24aa"
@@ -659,11 +660,11 @@
       <script>loadSection("## Research", "div_research")</script>
     </div>
 
-    <script>MathJax.typesetPromise()
+    <!-- <script>MathJax.typesetPromise()
         .then(() => {
           console.log("MathJax re-rendered!");
         })
-        .catch((err) => console.error("MathJax error:", err));</script>
+        .catch((err) => console.error("MathJax error:", err));</script> -->
   </main>
 
 
