@@ -334,7 +334,8 @@
     }
 
     body {
-      font-family: 'Linux Libertine', Times, serif;
+      font-family: 'Linux Libertine', -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+      /* Times, serif; */
       /*, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
     }
 
@@ -645,25 +646,30 @@
     <!-- <div id="div_qm">  
       <script>loadSection("## About", "div_qm",markdownUrl_qm)</script>
     </div> -->
-    <h3>Upcoming Event(s)</h2>
+    <details open>
+      <summary>
+        <h3>Calendar</h3>
+      </summary>
+      <iframe
+        src="https://calendar.google.com/calendar/embed?height=550&wkst=1&ctz=Asia%2FKolkata&showPrint=0&hl=en_GB&mode=AGENDA&title=Quantum%20Meets&src=YjAyNDI5YjRkZWQ5Yzc2YTFlNWU2OTE2MjFkOWRhOTI2M2QzMzkzZDU1ZWZiYTc3MDg2ZjhiNjg4NDcwZDU4OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238e24aa"
+        style="border: 0; padding: 5px; width: 100%; height: 550px;" frameborder="0" scrolling="no"></iframe>
+      <!-- <br /> -->
+    </details>
 
-      <div id="div_qm_details">
-        <script>loadSection("## Upcoming", "div_qm_details", markdownUrl_qm)</script>
-      </div>
+    <details>
+      <summary> 
+        <h3>Upcoming Event(s)</h2>
+      </summary>
+        <div id="div_qm_details">
+          <script>loadSection("## Upcoming", "div_qm_details", markdownUrl_qm)</script>
+        </div>
+    </details>
+
 
       <!-- I coordinate <a href="https://quantum-iiit.github.io">Quantum Meets</a>—an online quantum seminar series. We have
       been fortunate enough to have an amazing line-up of speakers. -->
       <!-- <br /><br /> -->
 
-      <details>
-        <summary>
-          <h3>Calendar</h3>
-        </summary>
-        <iframe
-          src="https://calendar.google.com/calendar/embed?height=550&wkst=1&ctz=Asia%2FKolkata&showPrint=0&hl=en_GB&mode=AGENDA&title=Quantum%20Meets&src=YjAyNDI5YjRkZWQ5Yzc2YTFlNWU2OTE2MjFkOWRhOTI2M2QzMzkzZDU1ZWZiYTc3MDg2ZjhiNjg4NDcwZDU4OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238e24aa"
-          style="border: 0; padding: 5px; width: 100%; height: 550px;" frameborder="0" scrolling="no"></iframe>
-        <!-- <br /> -->
-      </details>
 
       <h2 id="teaching">Teaching</h2>
       <div id="div_teaching">
