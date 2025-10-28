@@ -22,7 +22,7 @@ I am not looking for students at present but intend to start by around February 
 
 ### Present
 
-I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and learning the background for our proof of quantumness (PoQ) hierarchy project. Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our centre's [current website](https://cqst.iiit.ac.in). 
+I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and learning the background for our proof of quantumness (PoQ) hierarchy project. Aside from research, I am coordinating Quantum Meets (see below) and led the effort to overhaul our centre's [website](https://cqst.iiit.ac.in). 
 
 ### Recent
 * Oct 6, 2025. *arXiv release.* [Cheat-penalised quantum weak coin-flipping](https://www.arxiv.org/abs/2510.03218).
