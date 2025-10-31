@@ -25,7 +25,7 @@ I am not looking for students at present but intend to start by around February 
 I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and learning the background for our proof of quantumness (PoQ) hierarchy project. Aside from research, I am coordinating Quantum Meets (see below) and ironing out the wrinkles in our new centre website.
 
 ### Recent
-* Oct 31, 2025. *New website for CQST (our centre) launched.* Led the effort (with the web team Preetham and Evans) to launch our [New website](https://cqst.iiit.ac.in). Still has some minor bugs. Here's the [previous version](https://cqst.iiit.ac.in/old-site) for comparison.
+* Oct 31, 2025. *New website for CQST (our centre) launched.* Led the effort (with the web team consisting of Preetham and Evan) to launch our [new CQST website](https://cqst.iiit.ac.in). It still has some minor bugs though. Here's the [previous version](https://cqst.iiit.ac.in/old-site) for comparison.
 * Oct 20–22, 2025. *Research Stay.* IIT Delhi. Was supposed to be hosted by Venkata Koppula but got canceled in the last minute. 
 * Oct 6, 2025. *arXiv release.* [Cheat-penalised quantum weak coin-flipping](https://www.arxiv.org/abs/2510.03218).
 * Sep 16th, 2025. *TheoretiCS Acceptance.* Protocols for weak coin flipping.
