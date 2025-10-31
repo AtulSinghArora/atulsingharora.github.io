@@ -22,10 +22,10 @@ I am not looking for students at present but intend to start by around February 
 
 ### Present
 
-I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and learning the background for our proof of quantumness (PoQ) hierarchy project. Aside from research, I am coordinating Quantum Meets (see below).
+I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and learning the background for our proof of quantumness (PoQ) hierarchy project. Aside from research, I am coordinating Quantum Meets (see below) and ironing out the wrinkles in our new centre website.
 
 ### Recent
-* Oct 31, 2025. *New website CQST (our centre) launched.* Led the effort (with the web team Preetham and Evans) to launch our [New website](https://cqst.iiit.ac.in). Still has some minor bugs. Here's the [previous version](https://cqst.iiit.ac.in/old-site) for comparison.
+* Oct 31, 2025. *New website for CQST (our centre) launched.* Led the effort (with the web team Preetham and Evans) to launch our [New website](https://cqst.iiit.ac.in). Still has some minor bugs. Here's the [previous version](https://cqst.iiit.ac.in/old-site) for comparison.
 * Oct 6, 2025. *arXiv release.* [Cheat-penalised quantum weak coin-flipping](https://www.arxiv.org/abs/2510.03218).
 * Sep 16th, 2025. *TheoretiCS Acceptance.* Protocols for weak coin flipping.
 * Jun 2nd to 4th, 2025. *Invited Talk.* Quantum Fringe Event. *University of Edinburgh.* 
