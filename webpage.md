@@ -26,7 +26,7 @@ I am working on three projects: fully adversarial self-testing (FAST), one speci
 
 ### Recent
 * Oct 31, 2025. *New website for CQST (our centre) launched.* Led the effort (with the web team consisting of Preetham and Evan) to launch our [new CQST website](https://cqst.iiit.ac.in). It still has some minor bugs though. Here's the [previous version](https://cqst.iiit.ac.in/old-site) for comparison.
-* Oct 20–22, 2025. *Research Stay.* IIT Delhi. Was supposed to be hosted by Venkata Koppula but got canceled in the last minute. 
+* Oct 20–22, 2025. *Research Stay.* Was supposed to be hosted by Venkata Koppula but got canceled in the last minute. *IIT Delhi.* 
 * Oct 6, 2025. *arXiv release.* [Cheat-penalised quantum weak coin-flipping](https://www.arxiv.org/abs/2510.03218).
 * Sep 16th, 2025. *TheoretiCS Acceptance.* Protocols for weak coin flipping.
 * Jun 2nd to 4th, 2025. *Invited Talk.* Quantum Fringe Event. *University of Edinburgh.* 
