@@ -25,6 +25,7 @@ I am not looking for students at present but intend to start by around February 
 I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and learning the background for our proof of quantumness (PoQ) hierarchy project. Aside from research, I am coordinating Quantum Meets (see below) and ironing out the wrinkles in our new centre website.
 
 ### Recent
+* Dec 18, 2025. *ANRF Grant Accepted.* Our project titled "Classical control of untrusted quantum devices" was accepted for funding. Co-written with Venkata Koppula, IIT Delhi. 
 * Nov 26, 2025. *Published in TheoretiCS.* Protocols for Quantum Weak Coin Flipping. https://doi.org/10.46298/theoretics.25.26
 * Oct 31, 2025. *New website for CQST (our centre) launched.* Led the effort (with the web team consisting of Preetham and Evan) to launch our [new CQST website](https://cqst.iiit.ac.in). It still has some minor bugs though. Here's the [previous version](https://cqst.iiit.ac.in/old-site) for comparison.
 * Oct 20–22, 2025. *Research Stay.* Was supposed to be hosted by Venkata Koppula but got canceled at the last minute. *IIT Delhi.* 
