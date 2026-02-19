@@ -22,15 +22,17 @@ I spent a year (roughly the year 2024) as a Hartree fellow (postdoctoral positio
 
 ### Present
 
-I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and learning the background for our proof of quantumness (PoQ) hierarchy project. Aside from research, I am coordinating Quantum Meets (see below) and ironing out the wrinkles in our new centre website.
+I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and on a project on device independent secure two-party computation that combines recent techniques from C* algebra introduced in the context of compiled games. I am also coordinating Quantum Meets (see below). 
+<!-- learning the background for our proof of quantumness (PoQ) hierarchy project. --> 
+<!-- Aside from research, I am coordinating Quantum Meets (see below) and ironing out the wrinkles in our new centre website.  -->
 
-### Opportunities
+### Join us
 
-We now have a few grants and are looking for suitable candidates. If you are interested, please email the following information.
+We, at the Centre for Quantum Science and Technology, now have a few grants and are looking for suitable candidates. If you are interested in working with us, please email the following information.
 * Summer positions/Research Assistant: Include a brief CV (with grades, and any project—big or small—that showcases your interest in research), and a small paragraph describing what got you interested in quantum research, and any relevant recent/ongoing projects (it is perfectly to fine to include study projects) or courses you are excited about. 
 * PhD Candidates: Include a brief CV (with grades and any research you may have conducted), and a one page document describing either your existing work or broadly explaining what kind of topics you may be interested in exploring. 
 
-We are unlikely to respond to submissions where the candidate has not tailored their application even slightly to our research area here.
+We are unlikely to respond to submissions where the candidate has not tailored their application even slightly to our research area here. 
 
 | Position                               | Description                                                                                                                                                                                                  |      Applications Due       |    Decision Date     |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------:|:--------------------:|
