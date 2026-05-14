@@ -28,7 +28,7 @@ I am working on three projects: fully adversarial self-testing (FAST), one speci
 
 ### Join us
 
-We, at the Centre for Quantum Science and Technology, now have a few grants and are looking for suitable candidates. [Join us](https://cqst.iiit.ac.in/openings)!
+We, at the Centre for Quantum Science and Technology, now have a few grants and are looking for suitable candidates. [Join us](https://cqst.iiit.ac.in/openings)! The application deadline is June 15, 2026.
 
 <!--If you are interested in working with us, please email the following information.
 * Summer positions/Research Assistant: Include a brief CV (with grades, and any project—big or small—that showcases your interest in research), and a small paragraph describing what got you interested in quantum research, and any relevant recent/ongoing projects (it is perfectly to fine to include study projects) or courses you are excited about. 
