@@ -28,7 +28,9 @@ I am working on three projects: fully adversarial self-testing (FAST), one speci
 
 ### Join us
 
-We, at the Centre for Quantum Science and Technology, now have a few grants and are looking for suitable candidates. If you are interested in working with us, please email the following information.
+We, at the Centre for Quantum Science and Technology, now have a few grants and are looking for suitable candidates. [Join us](https://cqst.iiit.ac.in/openings)!
+
+<!--If you are interested in working with us, please email the following information.
 * Summer positions/Research Assistant: Include a brief CV (with grades, and any project—big or small—that showcases your interest in research), and a small paragraph describing what got you interested in quantum research, and any relevant recent/ongoing projects (it is perfectly to fine to include study projects) or courses you are excited about. 
 * PhD Candidates: Include a brief CV (with grades and any research you may have conducted), and a one page document describing either your existing work or broadly explaining what kind of topics you may be interested in exploring. 
 
@@ -46,7 +48,7 @@ We are unlikely to respond to submissions where the candidate has not tailored t
 * After the submission due date (and prior to the decision date), we will gradually send out emails to potential candidates and arrange online interviews. Further details of the research project (depending on the source of funding/interest of the canditate etc.) will also be discussed during these interviews. 
 * After the decision date, all applicants (who were acknowledged), will be informed of the decision. Some of you may be "waitlisted" as those who are offered positions will be given about a week to decide. 
 
-
+-->
 
 ### Recent
 * Dec 18, 2025. *ANRF-ARG (Advanced Research Grant) proposal accepted.* Our proposal titled "Classical control of untrusted quantum devices" has been recommended for funding. It was co-written with Venkata Koppula, IIT Delhi and Uttam Singh, IIIT Hyderabad. 
