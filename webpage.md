@@ -10,7 +10,7 @@ I am a researcher at IIIT Hyderabad, India, working as an Assistant Professor. I
 
 I spent a year (roughly the year 2024) as a Hartree fellow (postdoctoral position) at the [University of Maryland](https://quics.umd.edu/people/atul-singh-arora). Prior to that, I was a postdoctoral researcher at [Caltech](https://iqim.caltech.edu/people/postdocs/), under the supervision of Prof Thomas VIDICK for about two and a half years, from 2021 to 2023. For my doctoral dissertation, I was advised by Prof Jérémie ROLAND at [Université libre de Bruxelles](http://quic.ulb.ac.be/members/past) and the degree was awarded in Sep 2020. I obtained my Bachelor's and Master's in May 2016 from [IISER Mohali](https://www.iisermohali.ac.in/students/people-sublinks/bs-ms-2011-batch), (India). I majored in physics and my master's thesis advisor was Prof Arvind. 
 
-I am not looking for students at present but intend to start by around February 2026. Happy to informally discuss research/science. Email is the best way to reach me.
+<!-- I am not looking for students at present but intend to start by around February 2026. Happy to informally discuss research/science. Email is the best way to reach me. -->
 
 <sub> [ atul.singh.arora@gmail.com | atul.arora@iiit.ac.in ] </sub>
 <!-- <sub>[ [curriculum vitae](https://atulsingharora.github.io/CV/cv.pdf) ] (last updated: 2023 end) </sub> -->
@@ -22,9 +22,47 @@ I am not looking for students at present but intend to start by around February 
 
 ### Present
 
-I am working on three projects: cheat-penalised coin flipping, fully adversarial self-testing (FAST) and one specific aspect of quantum thermodynamics with computationally bounded adversaries. Aside from research, I am coordinating Quantum Meets (see below) and leading the effort to [overhaul](https://cqst.iiit.ac.in/staging) our centre's [current website](https://cqst.iiit.ac.in). 
+I am working on three projects: fully adversarial self-testing (FAST), one specific aspect of quantum thermodynamics with computationally bounded adversaries and on a project on device independent secure two-party computation that combines recent techniques from C* algebra introduced in the context of compiled games. I am also coordinating Quantum Meets (see below). 
+<!-- learning the background for our proof of quantumness (PoQ) hierarchy project. --> 
+<!-- Aside from research, I am coordinating Quantum Meets (see below) and ironing out the wrinkles in our new centre website.  -->
+
+<!--
+### Join us
+
+~~We, at the Centre for Quantum Science and Technology, now have a few grants and are looking for suitable candidates.  Join us!~~
+
+* [Official Announcement](https://cqst.iiit.ac.in/openings)
+* ~~[Application Link](https://s.qinf.workers.dev/j26)~~
+
+~~NB. The application deadline is **June 15, 2026**.~~ -->
+
+<!--If you are interested in working with us, please email the following information.
+* Summer positions/Research Assistant: Include a brief CV (with grades, and any project—big or small—that showcases your interest in research), and a small paragraph describing what got you interested in quantum research, and any relevant recent/ongoing projects (it is perfectly to fine to include study projects) or courses you are excited about. 
+* PhD Candidates: Include a brief CV (with grades and any research you may have conducted), and a one page document describing either your existing work or broadly explaining what kind of topics you may be interested in exploring. 
+
+We are unlikely to respond to submissions where the candidate has not tailored their application even slightly to our research area here. 
+
+| Position                               | Description                                                                                                                                                                                                  |      Applications Due       |    Decision Date     |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------:|:--------------------:|
+| ~~**1 Summer Intern** (three months)~~ | ~~Tentatively, May, June and July.~~                                                                                                                                                                             | ~~Wednesday February 25, 2026~~ | ~~Monday March 2, 2026~~ |
+| 2-3 PhD Candidates                     | Typical duration is 5 years. Multiple sources of funding with varying constraints. Details can be discussed during interview/selection. Would be co-advised with Uttam Singh or Shantanav Chakraborty |             TBA             |         TBA          |
+| 1 Research Assistant (five/six months)      | Scheduled for the Winter/Monsoon semester (August—Dec)                                                                                                                                                  |             TBA             |         TBA          |
+
+
+#### Process
+* Once you submit your application and we consider it "reasonable", we will acknowledge receiving it.
+* After the submission due date (and prior to the decision date), we will gradually send out emails to potential candidates and arrange online interviews. Further details of the research project (depending on the source of funding/interest of the canditate etc.) will also be discussed during these interviews. 
+* After the decision date, all applicants (who were acknowledged), will be informed of the decision. Some of you may be "waitlisted" as those who are offered positions will be given about a week to decide. 
+
+-->
 
 ### Recent
+* Mar 28, 2026. *NQM (National Quantum Mission) proposal accepted.* Two of our joint proposal (one led by IIT Madras and one by IISc) were approved for funding. Our part for the former, was jointly written with Shantanav Chakraborty (IIIT) and the latter with him, Uttam Singh, and Siddhartha Das. 
+* Dec 18, 2025. *ANRF-ARG (Advanced Research Grant) proposal accepted.* Our proposal titled "Classical control of untrusted quantum devices" has been recommended for funding. It was co-written with Venkata Koppula, IIT Delhi and Uttam Singh, IIIT Hyderabad. 
+* Nov 26, 2025. *Published in TheoretiCS.* Protocols for Quantum Weak Coin Flipping. https://doi.org/10.46298/theoretics.25.26
+* Oct 31, 2025. *New website for CQST (our centre) launched.* Led the effort (with the web team consisting of Preetham and Evan) to launch our [new CQST website](https://cqst.iiit.ac.in). It still has some minor bugs though. Here's the [previous version](https://cqst.iiit.ac.in/old-site) for comparison.
+* Oct 20–22, 2025. *Research Stay.* Was supposed to be hosted by Venkata Koppula but got canceled at the last minute. *IIT Delhi.* 
+* Oct 6, 2025. *arXiv release.* [Cheat-penalised quantum weak coin-flipping](https://www.arxiv.org/abs/2510.03218).
 * Sep 16th, 2025. *TheoretiCS Acceptance.* Protocols for weak coin flipping.
 * Jun 2nd to 4th, 2025. *Invited Talk.* Quantum Fringe Event. *University of Edinburgh.* 
 * Jun 1st to 21st, 2025. *Research Stay.* Hosted by Alexandru Cojocaru. *University of Edinburgh.* 
@@ -37,26 +75,28 @@ I am working on three projects: cheat-penalised coin flipping, fully adversarial
 
 ## Teaching
 
-I taught my very first course from Jan–May, 2025. 
+* I taught my very first course in 2025. This year, I taught an undergraduate course on Linear Algebra—my first experience with teaching a large class (~130 students). 
+* All course pages and related resources are on [https://donkeydocs.github.io/](https://donkeydocs.github.io)
 
-| Term | Subject | Description |
-|- | - | - |
-| Spring Term (Jan to mid May) 2025 | [Quantum Aspects of Cryptography](https://donkeydocs.github.io) | This course starts by quickly reviewing the basics of quantum information, and modern (classical) cryptography. It then covers various exciting topics in quantum cryptography—many of which have only recently been discovered. Last time, we looked at non-locality (entanglement, Bell’s theorem), certified deletion, uncloneable  encryption (in the random oracle model), Haar measures, commitments from pseudorandom states, cryptography using assumptions potentially weaker than P≠NP, self-testing and verification. This barely scratches the surface and subsequent iterations of the course are likely to have a different selection of topics. The exams in this course do not have a strict upper limit on the time, and students are allowed to carry one piece of paper with handwritten notes. Assessments focus on testing understanding as opposed to memory and other factors.  |
+| Term                              | Subject                                                                                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Spring Term (Jan to mid May) 2026 | [Linear Algebra](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/_#linear-algebra-winterspring-2026)                                   | An undegraduate Linear Algebra course.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Spring Term (Jan to mid May) 2025 | [Quantum Aspects of Cryptography](https://github.com/donkeyDocs/donkeyDocs.github.io/tree/master/_#quantum-aspects-of-cryptography-winterspring-2025) | This course starts by quickly reviewing the basics of quantum information, and modern (classical) cryptography. It then covers various exciting topics in quantum cryptography—many of which have only recently been discovered. Last time, we looked at non-locality (entanglement, Bell’s theorem), certified deletion, uncloneable  encryption (in the random oracle model), Haar measures, commitments from pseudorandom states, cryptography using assumptions potentially weaker than P≠NP, self-testing and verification. This barely scratches the surface and subsequent iterations of the course are likely to have a different selection of topics. The exams in this course do not have a strict upper limit on the time, and students are allowed to carry one piece of paper with handwritten notes. Assessments focus on testing understanding as opposed to memory and other factors. |
 
 ## Research
 
 <details open>
 <summary>
 
-### Cheat-penalised weak coin-flipping
+### Cheat-penalised quantum weak coin-flipping
 *Atul Singh Arora, Carl Miller, Mauro E.S. Morales, Jamie Sikora*
 
-<sub> Sep 2025 [ [GitHub](https://atulsingharora.github.io/penWCF) ] </sub>  
-<sub>  60 pages, 11 Figures  </sub>
+<sub> Oct 2025 [ [arXiv](https://www.arxiv.org/abs/2510.03218)  | [GitHub](https://atulsingharora.github.io/penWCF) ] </sub>  
+<sub>  61 pages, 11 Figures  </sub>
 
 </summary> 
 
-> Coin-flipping is a fundamental task in two-party cryptography where two remote mistrustful parties wish to generate a shared uniformly random bit. While quantum protocols promising near-perfect security exist for *weak* coin-flipping—when the parties want opposing outcomes—it has been shown that they must be inefficient in terms of their round complexity, and it is an open question of how space efficient they can be. In this work, we consider a variant called *cheat-penalised* weak coin-flipping in which a cheating party loses $\Lambda$ points (compared to $0$ in the standard definition). We find that already for a small cheating penalty, the landscape of coin-flipping changes dramatically. For example, with $\Lambda=0.01$, we exhibit a protocol where neither Alice nor Bob can bias the result in their favour beyond $1/2 + 10^{-8}$, which uses $24$ qubits and $10^{16}$ rounds of communication (provably $1000$ times better than any weak coin-flipping protocol with matching security). For the same space requirements, we demonstrate how one can choose between lower bias (down to $1/2 + 10^{-10}$) or better round complexity (down to $25,180$), depending on what is preferred. To find these protocols, we make two technical contributions. First, we extend the point game-protocol correspondence introduced by Kitaev and Mochon, to incorporate: (i) approximate point games, (ii) the cheat-penalised setting, and (iii) round and space complexity. Second, we give the first (to the best of our knowledge) numerical algorithm for constructing (approximate) point games that correspond to high security and low round complexity. Our results open up the possibility of having secure and practical quantum protocols for multiparty computation. 
+> Coin-flipping is a fundamental task in two-party cryptography where two remote mistrustful parties wish to generate a shared uniformly random bit. While quantum protocols promising near-perfect security exist for *weak* coin-flipping—when the parties want opposing outcomes—it has been shown that they must be inefficient in terms of their round complexity, and it is an open question of how space efficient they can be. In this work, we consider a variant called *cheat-penalised* weak coin-flipping in which if a party gets caught cheating, they lose $\Lambda$ points (compared to $0$ in the standard definition). We find that already for a small cheating penalty, the landscape of coin-flipping changes dramatically. For example, with $\Lambda=0.01$, we exhibit a protocol where neither Alice nor Bob can bias the result in their favour beyond $1/2 + 10^{-8}$, which uses $24$ qubits and $10^{16}$ rounds of communication (provably $10^{7}$ times better than any weak coin-flipping protocol with matching security). For the same space requirements, we demonstrate how one can choose between lowering how much a malicious party can bias the result (down to $1/2 + 10^{-10}$) and reducing the rounds of communication (down to $25,180$), depending on what is preferred. To find these protocols, we make two technical contributions. First, we extend the point game-protocol correspondence introduced by Kitaev and Mochon, to incorporate: (i) approximate point games, (ii) the cheat-penalised setting, and (iii) round and space complexity. Second, we give the first (to the best of our knowledge) numerical algorithm for constructing (approximate) point games that correspond to high security and low complexity. Our results open up the possibility of having secure and practical quantum protocols for multiparty computation. 
 
 </details>
 
