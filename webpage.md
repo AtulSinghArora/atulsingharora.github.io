@@ -57,6 +57,9 @@ We are unlikely to respond to submissions where the candidate has not tailored t
 -->
 
 ### Recent
+* Nov 18, 2026. *Presentation release.* [Computational Work Extraction: The Complexity of Catalysts (YouTube)](https://youtu.be/ol8lhs_AQ5o)
+* Nov 3, 2026. *GitHub release.* Added new results to the following draft; new version on [GitHub](https://atulsingharora.github.io/cat).
+* Sep 30, 2026. *arXiv release.* [Computational Work Extraction: The Complexity of Catalysts (arXiv)](http://arxiv.org/abs/2609.40323)
 * Mar 28, 2026. *NQM (National Quantum Mission) proposal accepted.* Two of our joint proposal (one led by IIT Madras and one by IISc) were approved for funding. Our part for the former, was jointly written with Shantanav Chakraborty (IIIT) and the latter with him, Uttam Singh, and Siddhartha Das. 
 * Dec 18, 2025. *ANRF-ARG (Advanced Research Grant) proposal accepted.* Our proposal titled "Classical control of untrusted quantum devices" has been recommended for funding. It was co-written with Venkata Koppula, IIT Delhi and Uttam Singh, IIIT Hyderabad. 
 * Nov 26, 2025. *Published in TheoretiCS.* Protocols for Quantum Weak Coin Flipping. https://doi.org/10.46298/theoretics.25.26
