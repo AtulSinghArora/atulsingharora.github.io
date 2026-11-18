@@ -88,6 +88,34 @@ We are unlikely to respond to submissions where the candidate has not tailored t
 <details open>
 <summary>
 
+### Computational Work Extraction: The Complexity of Catalysts
+*Atul Singh Arora, Shantanav Chakraborty, Alexandru Cojocaru, Sreyas Saminathan, Uttam Singh*
+
+<sub> Oct/Nov 2025 [ [arXiv](http://arxiv.org/abs/2609.40323) (to be updated) | [GitHub](https://atulsingharora.github.io/cat) (current version) | [Video](https://youtu.be/ol8lhs_AQ5o) ] </sub>  
+<sub> 105 pages, 5 Figures </sub> 
+
+</summary>
+
+> Thermodynamics has been repeatedly reshaped by improving how one models the capabilities of agents that extract work. 
+For an isolated quantum system, the maximal extractable work, the *ergotropy*, assumes that the agent can apply any unitary. However, achieving it can be computationally intractable. In this work we introduce and study *computational ergotropy*, restricting extraction to *polynomially-sized* uniform unitary circuits acting on the system alone. 
+
+> We show (near) maximal separations between computational ergotropy and ergotropy. We then uncover an important connection between ergotropy and the *complexity of catalytic computation*—computation where auxiliary qubits must be finally restored to their initial state. We first establish that there are problems that (i) can be solved efficiently with $\lambda$ catalysts; but
+(ii) cannot be solved by any efficient algorithm with $c\lambda$ catalysts, for any $c<1$.
+We show this by proving query lower bounds for *quantum-space bounded* algorithms. As a consequence, for computational ergotropy, catalysts prove to be surprisingly powerful—there is a (near) maximal separation in catalytic ergotropy when $c<1$ and $c\ge 1$.
+We extend these threshold results to the *thermalised catalysts* setting—the catalysts are thermalised instead of being pure—and again obtain a computational phase-transition behaviour as the number of catalyst qubits crosses the $\lambda/(1-h(T))$ threshold where $h$ captures the binary entropy associated with temperature $T$. 
+On the other hand, we show that catalysts (even allowing for approximate restoration) leave the information theoretic variant of ergotropy unchanged.
+
+> Furthermore, using catalysts, we introduce and instantiate a satisfactory notion of *pseudoergotropy*—analogous to pseudorandomness.
+
+> Finally, our work also sheds light on the classical aspect of the problem: we show that our results also hold for *classical ergotropy* and prove a *separation between quantum and classical* computational catalytic ergotropy.
+
+> Overall, these results point towards a theory of thermodynamics where computational complexity plays a fundamental role. 
+
+</details>
+
+<details>
+<summary>
+
 ### Cheat-penalised quantum weak coin-flipping
 *Atul Singh Arora, Carl Miller, Mauro E.S. Morales, Jamie Sikora*
 
